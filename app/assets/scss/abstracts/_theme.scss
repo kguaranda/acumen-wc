@@ -1,0 +1,60 @@
+@use "sass:map";
+
+@use "../abstracts/_variables" as *;
+@use "../base/_mediaQueries" as *;
+@use "./mixins" as *;
+
+.theme {
+  background-color: map.get($color-theme-default, "bg");
+  color: map.get($color-theme-default, "text");
+
+  &.theme-climate-resilience {
+    background-color: map.get($color-theme-climate-resilience, "bg");
+    color: map.get($color-theme-climate-resilience, "text");
+  }
+
+  &.theme-farmer-survey-snapshot {
+    background-color: map.get($color-theme-farmer-survey-snapshot, "bg");
+    color: map.get($color-theme-farmer-survey-snapshot, "text");
+  }
+
+  &.theme-findings {
+    background-color: map.get($color-theme-findings, "bg");
+    color: map.get($color-theme-findings, "text");
+  }
+
+  &.theme-case-study {
+    background-color: map.get($color-theme-case-study, "bg");
+    color: map.get($color-theme-case-study, "text");
+  }
+
+  &.theme-footer {
+    background-color: map.get($color-theme-footer, "bg");
+    color: map.get($color-theme-footer, "text");
+  }
+
+  &.theme-regal-blue {
+    background-color: map.get($color-theme-regal-blue, "bg");
+    color: map.get($color-theme-regal-blue, "text");
+  }
+
+  &.theme-dark-blue {
+    background-color: map.get($color-theme-dark-blue, "bg");
+    color: map.get($color-theme-dark-blue, "text");
+  }
+
+  &.theme-pine-green {
+    background-color: map.get($color-theme-pine-green, "bg");
+    color: map.get($color-theme-pine-green, "text");
+  }
+
+  &.theme-dark-red {
+    background-color: map.get($color-theme-dark-red, "bg");
+    color: map.get($color-theme-dark-red, "text");
+  }
+
+  &.theme-bright-green {
+    background-color: map.get($color-theme-bright-green, "bg");
+    color: map.get($color-theme-bright-green, "text");
+  }
+}

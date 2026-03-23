@@ -1,0 +1,285 @@
+@use "sass:map";
+
+@use "../abstracts/_variables" as *;
+@use "../base/_mediaQueries" as *;
+@use "./mixins" as *;
+
+// container
+%u-container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+}
+
+.container {
+  @extend %u-container;
+}
+
+$layout_settings_array: (
+  "display": (
+    "flex": flex,
+    "inline-flex": inline-flex,
+    "block": block,
+    "inline-block": inline-block,
+    "grid": grid,
+    "none": none,
+  ),
+  "height": (
+    "auto": auto,
+    "full": 100%,
+    "screen": 100vh,
+    "screen-s": 100svh,
+    "screen-d": 100dvh,
+    "7px": 7px,
+  ),
+  "min-height": (
+    "screen": 100vh,
+  ),
+  "width": (
+    "auto": auto,
+    "full": 100%,
+    "screen": 100vw,
+    "half": 50%,
+  ),
+  "position": (
+    "static": static,
+    "sticky": sticky,
+    "fixed": fixed,
+    "relative": relative,
+    "absolute": absolute,
+  ),
+  "text-align": (
+    "left": left,
+    "center": center,
+    "right": right,
+    "justify": justify,
+  ),
+  "top": (
+    "auto": auto,
+    "0": 0,
+    "base-x": $base-padding-x,
+    "base-y": $base-padding-y,
+    "base-x-md": $base-padding-x-md,
+    "base-y-md": $base-padding-y-md,
+    "base-x-lg": $base-padding-x-lg,
+    "base-y-lg": $base-padding-y-lg,
+  ),
+  "right": (
+    "auto": auto,
+    "0": 0,
+    "base-x": $base-padding-x,
+    "base-y": $base-padding-y,
+    "base-x-md": $base-padding-x-md,
+    "base-y-md": $base-padding-y-md,
+    "base-x-lg": $base-padding-x-lg,
+    "base-y-lg": $base-padding-y-lg,
+  ),
+  "bottom": (
+    "auto": auto,
+    "0": 0,
+    "base-x": $base-padding-x,
+    "base-y": $base-padding-y,
+    "base-x-md": $base-padding-x-md,
+    "base-y-md": $base-padding-y-md,
+    "base-x-lg": $base-padding-x-lg,
+    "base-y-lg": $base-padding-y-lg,
+  ),
+  "left": (
+    "auto": auto,
+    "0": 0,
+    "base-x": $base-padding-x,
+    "base-y": $base-padding-y,
+    "base-x-md": $base-padding-x-md,
+    "base-y-md": $base-padding-y-md,
+    "base-x-lg": $base-padding-x-lg,
+    "base-y-lg": $base-padding-y-lg,
+  ),
+  "z-index": (
+    "auto": auto,
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "99": 99,
+    "101": 101,
+    "102": 102,
+    "999": 999,
+  ),
+
+  "opacity": (
+    "auto": auto,
+    "0": 0,
+    "10": 0.1,
+    "20": 0.2,
+    "30": 0.3,
+    "40": 0.4,
+    "50": 0.5,
+    "60": 0.6,
+    "70": 0.7,
+    "80": 0.8,
+    "90": 0.9,
+    "100": 1,
+  ),
+  "border-radius": (
+    "none": 0,
+    "20": $base-border-radius,
+  ),
+);
+
+@mixin generate-layout-utilities() {
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "display") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          display: $value,
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "height") {
+      @include add-utility(
+        $breakpoint,
+        "h-#{$name}",
+        (
+          height: $value,
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "width") {
+      @include add-utility(
+        $breakpoint,
+        "w-#{$name}",
+        (
+          width: $value,
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "min-height") {
+      @include add-utility(
+        $breakpoint,
+        "min-h-#{$name}",
+        (
+          min-height: $value,
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "position") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          position: $value,
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "text-align") {
+      @include add-utility(
+        $breakpoint,
+        "text-align-#{$name}",
+        (
+          text-align: $value,
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "top") {
+      @include add-utility(
+        $breakpoint,
+        "top-#{$name}",
+        (
+          top: $value,
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "right") {
+      @include add-utility(
+        $breakpoint,
+        "right-#{$name}",
+        (
+          right: $value,
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "bottom") {
+      @include add-utility(
+        $breakpoint,
+        "bottom-#{$name}",
+        (
+          bottom: $value,
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "left") {
+      @include add-utility(
+        $breakpoint,
+        "left-#{$name}",
+        (
+          left: $value,
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "z-index") {
+      @include add-utility(
+        $breakpoint,
+        "z-#{$name}",
+        (
+          z-index: $value,
+        )
+      );
+    }
+  }
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "border-radius") {
+      @include add-utility(
+        $breakpoint,
+        "rounded-#{$name}",
+        (
+          border-radius: $value,
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($layout_settings_array, "opacity") {
+      @include add-utility(
+        $breakpoint,
+        "opacity-#{$name}",
+        (
+          opacity: $value,
+        )
+      );
+    }
+  }
+}
+
+@include generate-layout-utilities();

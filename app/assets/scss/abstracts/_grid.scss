@@ -1,0 +1,67 @@
+@use "../abstracts/_variables" as *;
+@use "../base/_mediaQueries" as *;
+@use "./mixins" as *;
+
+// Grid utility generator
+@mixin generate-grid-utilities($start: 2, $end: 12) {
+  @for $i from $start through $end {
+    // Base grid columns
+    @include add-utility(
+      base,
+      "grid-#{$i}",
+      (
+        display: grid,
+        grid-template-columns: repeat(#{$i}, 1fr),
+      )
+    );
+    // Base span
+    @include add-utility(
+      base,
+      "span-#{$i}",
+      (
+        grid-column: span #{$i},
+      )
+    );
+
+    // sm span
+    @include add-utility(
+      sm,
+      "span-#{$i}",
+      (
+        grid-column: span #{$i},
+      )
+    );
+
+    // md span
+    @include add-utility(
+      md,
+      "span-#{$i}",
+      (
+        grid-column: span #{$i},
+      )
+    );
+
+    // lg span
+    @include add-utility(
+      lg,
+      "span-#{$i}",
+      (
+        grid-column: span #{$i},
+      )
+    );
+
+    // giga span
+    @include add-utility(
+      giga,
+      "span-#{$i}",
+      (
+        grid-column: span #{$i},
+      )
+    );
+  }
+}
+
+// ✅ Generate the utilities
+@include generate-grid-utilities();
+
+// @include output-grid-utilities;

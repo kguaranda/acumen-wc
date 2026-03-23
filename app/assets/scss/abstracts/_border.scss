@@ -1,0 +1,17 @@
+@use "../abstracts/_variables" as *;
+
+@for $i from 1 through 3 {
+  .border-#{$i} {
+    border-top: #{$i}px solid;
+  }
+}
+
+$color-map: (
+  "white-tint-light": $color-white-tint-light,
+);
+
+@each $name, $value in $color-map {
+  .border-#{$name} {
+    border-color: $value;
+  }
+}

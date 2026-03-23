@@ -1,0 +1,250 @@
+@use "sass:map";
+@use "sass:math";
+
+@use "../abstracts/_variables" as *;
+@use "../base/_mediaQueries" as *;
+@use "./mixins" as *;
+
+@function px-to-rem($px) {
+  @return math.div($px, $base-font-size) * 1rem;
+}
+@function line-height($line-height, $font-size) {
+  @return math.div($line-height, $font-size);
+}
+
+@function get-font-metric($font-name, $metric) {
+  @return map.get(map.get($font-metrics, $font-name), $metric);
+}
+
+@function metric-to-em($font-name, $metric-key) {
+  $metric: get-font-metric($font-name, $metric-key);
+  $unitsPerEm: get-font-metric($font-name, "unitsPerEm");
+
+  @return math.div($metric, $unitsPerEm) * 1em;
+}
+
+$font-metrics: (
+  "gellix": (
+    capHeight: 700,
+    ascent: 1037,
+    descent: -163,
+    lineGap: 0,
+    unitsPerEm: 1000,
+  ),
+  "bigShoulder": (
+    capHeight: 1600,
+    ascent: 1968,
+    descent: -426,
+    lineGap: 0,
+    unitsPerEm: 2000,
+  ),
+);
+@mixin capsize-trim($font-name, $font-size, $line-height: null) {
+  $cap: metric-to-em($font-name, "capHeight");
+  $ascent: metric-to-em($font-name, "ascent");
+  $descent: metric-to-em($font-name, "descent");
+  $lineGap: metric-to-em($font-name, "lineGap");
+
+  $absoluteDescent: abs($descent);
+
+  $ascentScale: $ascent;
+  $descentScale: $absoluteDescent;
+  $capHeightScale: $cap;
+  $lineGapScale: $lineGap;
+
+  $contentArea: $ascent + $lineGap + $absoluteDescent;
+
+  // Height of the content area of the font
+  $lineHeightNormal: $contentArea;
+
+  $specifiedLineHeightOffset: 0;
+
+  @if $line-height != null {
+    $specifiedLineHeightOffset: math.div($lineHeightNormal - $line-height, 2);
+  }
+
+  $capHeightTrim: -1 *
+    (
+      ($ascentScale - $capHeightScale + math.div($lineGapScale, 2)) -
+        $specifiedLineHeightOffset
+    );
+  $baselineTrim: -1 *
+    (($descentScale + math.div($lineGapScale, 2)) - $specifiedLineHeightOffset);
+
+  font-size: $font-size;
+  @if $line-height != null {
+    line-height: $line-height;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    display: table;
+  }
+
+  &::before {
+    margin-bottom: $capHeightTrim;
+  }
+
+  &::after {
+    margin-top: $baselineTrim;
+  }
+}
+
+$text-settings-array: (
+  "body": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($base-font-size),
+    "line-height": line-height($base-line-height, $base-font-size),
+    "font-size-md": px-to-rem($base-font-size-md),
+    "line-height-md": line-height($base-line-height-md, $base-font-size-md),
+    "font-size-lg": px-to-rem($base-font-size-lg),
+    "line-height-lg": line-height($base-line-height-lg, $base-font-size-lg),
+  ),
+  "bodyBig": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-bodyBig),
+    "line-height": line-height($text-size-bodyBig-lh, $text-size-bodyBig),
+    "font-size-md": px-to-rem($text-size-bodyBig-md),
+    "line-height-md": line-height(
+        $text-size-bodyBig-md-lh,
+        $text-size-bodyBig-md
+      ),
+    "font-size-lg": px-to-rem($text-size-bodyBig-lg),
+    "line-height-lg": line-height(
+        $text-size-bodyBig-lg-lh,
+        $text-size-bodyBig-lg
+      ),
+  ),
+  "xLarge": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-xLarge),
+    "line-height": line-height($text-size-xLarge-lh, $text-size-xLarge),
+    "font-size-md": px-to-rem($text-size-xLarge-md),
+    "line-height-md": line-height($text-size-xLarge-md-lh, $text-size-xLarge-md),
+    "font-size-lg": px-to-rem($text-size-xLarge-lg),
+    "line-height-lg": line-height($text-size-xLarge-lg-lh, $text-size-xLarge-lg),
+  ),
+  "large": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-large),
+    "line-height": line-height($text-size-large-lh, $text-size-large),
+  ),
+  "medium": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-medium),
+    "line-height": line-height($text-size-medium-lh, $text-size-medium),
+  ),
+  "small": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-small),
+    "line-height": line-height($text-size-small-lh, $text-size-small),
+  ),
+
+  "xSmall": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-xSmall),
+    "line-height": line-height($text-size-xSmall-lh, $text-size-xSmall),
+  ),
+
+  "footerBig": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-footerBig),
+    "line-height": line-height($text-size-footerBig-lh, $text-size-footerBig),
+    "font-size-md": px-to-rem($text-size-footerBig-md),
+    "line-height-md": line-height(
+        $text-size-footerBig-md-lh,
+        $text-size-footerBig-md
+      ),
+    "font-size-lg": px-to-rem($text-size-footerBig-lg),
+    "line-height-lg": line-height(
+        $text-size-footerBig-lg-lh,
+        $text-size-footerBig-lg
+      ),
+  ),
+  "asideFooter": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-asideFooter),
+    "line-height": line-height(
+        $text-size-asideFooter-lh,
+        $text-size-asideFooter
+      ),
+  ),
+  "bigShoulder": (
+    "font-name": "bigShoulder",
+    "font-size": px-to-rem($text-size-bigShoulder),
+    "line-height": 1.2,
+  ),
+
+  "bigShoulder-giga": (
+    "font-name": "bigShoulder",
+    "font-size": px-to-rem($text-size-bigShoulder-giga),
+    "line-height": 1.2,
+    "font-size-md": px-to-rem($text-size-bigShoulder-giga-md),
+    "line-height-md": 1.2,
+    "font-size-lg": px-to-rem($text-size-bigShoulder-giga-lg),
+    "line-height-lg": 1.2,
+  ),
+);
+
+@mixin generate-text-utilities() {
+  @each $name, $properties in $text-settings-array {
+    .text-#{$name} {
+      $font-name: map.get($properties, "font-name");
+      $font-size: map.get($properties, "font-size");
+      $line-height: map.get($properties, "line-height");
+      $font-size-md: map.get($properties, "font-size-md");
+      $line-height-md: map.get($properties, "line-height-md");
+      $font-size-lg: map.get($properties, "font-size-lg");
+      $line-height-lg: map.get($properties, "line-height-lg");
+
+      @include capsize-trim($font-name, $font-size, $line-height);
+
+      @include md-up {
+        @include capsize-trim($font-name, $font-size-md, $line-height-md);
+      }
+
+      @include lg-up {
+        @include capsize-trim($font-name, $font-size-lg, $line-height-lg);
+      }
+    }
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+
+  &.text-animated {
+    display: inline-block;
+  }
+
+  &.text-bold {
+    font-family: $base-font-family-bold;
+  }
+  &.text-semi-bold {
+    font-family: $base-font-family-semi-bold;
+  }
+
+  &.text-underline {
+    text-decoration: underline;
+  }
+
+  &.text-bigShoulder,
+  &.text-bigShoulder-giga {
+    font-weight: 700;
+    font-style: normal;
+    font-family: $base-font-family-display;
+  }
+
+  &.text-download {
+    font-size: px-to-rem(16px);
+
+    @include md-up {
+      font-size: px-to-rem(18px);
+    }
+  }
+}
+
+@include generate-text-utilities();

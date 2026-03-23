@@ -1,0 +1,252 @@
+@use "sass:map";
+
+@use "../abstracts/_variables" as *;
+@use "../base/_mediaQueries" as *;
+@use "./mixins" as *;
+
+$spacing_settings_array: (
+  "padding": (
+    "p": $sm,
+    "p-md": $md,
+    "p-lg": $lg,
+    "p-giga": $giga,
+    "p-giga-2": $giga-2,
+  ),
+  "paddingtop": (
+    "pt": $sm,
+    "pt-md": $md,
+    "pt-lg": $lg,
+    "pt-giga": $giga,
+    "pt-giga-2": $giga-2,
+  ),
+  "paddingbottom": (
+    "pb": $sm,
+    "pb-md": $md,
+    "pb-lg": $lg,
+    "pb-giga": $giga,
+    "pb-giga-2": $giga-2,
+  ),
+  "paddingleft": (
+    "pl": $sm,
+    "pl-md": $md,
+    "pl-lg": $lg,
+    "pl-giga": $giga,
+    "pl-giga-2": $giga-2,
+  ),
+  "paddingright": (
+    "pr": $sm,
+    "pr-md": $md,
+    "pr-lg": $lg,
+    "pr-giga": $giga,
+    "pr-giga-2": $giga-2,
+  ),
+  "paddinghorizontal": (
+    "px": $sm,
+    "px-md": $md,
+    "px-lg": $lg,
+    "px-giga": $giga,
+    "px-giga-2": $giga-2,
+    "px-grid": $base-grid-gap,
+  ),
+  "paddingvertical": (
+    "py": $sm,
+    "py-md": $md,
+    "py-lg": $lg,
+    "py-giga": $giga,
+    "py-giga-2": $giga-2,
+    "py-grid": $base-grid-gap,
+  ),
+  "margin": (
+    "m": $sm,
+    "m-md": $md,
+    "m-lg": $lg,
+    "m-giga": $giga,
+    "m-giga-2": $giga-2,
+  ),
+  "margintop": (
+    "mt": $sm,
+    "mt-md": $md,
+    "mt-lg": $lg,
+    "mt-giga": $giga,
+    "mt-giga-2": $giga-2,
+  ),
+  "marginbottom": (
+    "mb": $sm,
+    "mb-md": $md,
+    "mb-lg": $lg,
+    "mb-giga": $giga,
+    "mb-giga-2": $giga-2,
+  ),
+  "marginleft": (
+    "ml": $sm,
+    "ml-md": $md,
+    "ml-lg": $lg,
+    "ml-giga": $giga,
+    "ml-giga-2": $giga-2,
+  ),
+  "marginright": (
+    "mr": $sm,
+    "mr-md": $md,
+    "mr-lg": $lg,
+    "mr-giga": $giga,
+    "mr-giga-2": $giga-2,
+  ),
+  "marginhorizontal": (
+    "mx": $sm,
+    "mx-md": $md,
+    "mx-lg": $lg,
+    "mx-giga": $giga,
+    "mx-giga-2": $giga-2,
+  ),
+  "marginvertical": (
+    "my": $sm,
+    "my-md": $md,
+    "my-lg": $lg,
+    "my-giga": $giga,
+    "my-giga-2": $giga-2,
+  ),
+);
+
+// Flex utility generator
+@mixin generate-spacing-utilities() {
+  // Gap utilities
+  @each $breakpoint in $breakpoints {
+    // Padding utilities
+    @each $name, $value in map.get($spacing_settings_array, "padding") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          padding: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "paddingtop") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          padding-top: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "paddingbottom") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          padding-bottom: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "paddingleft") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          padding-left: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "paddingright") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          padding-right: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "paddinghorizontal")
+    {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          padding-left: #{$value},
+          padding-right: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "paddingvertical") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          padding-top: #{$value},
+          padding-bottom: #{$value},
+        )
+      );
+    }
+
+    // Margin utilities
+    @each $name, $value in map.get($spacing_settings_array, "margin") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          margin: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "margintop") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          margin-top: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "marginbottom") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          margin-bottom: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "marginleft") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          margin-left: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "marginright") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          margin-right: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "marginhorizontal")
+    {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          margin-left: #{$value},
+          margin-right: #{$value},
+        )
+      );
+    }
+    @each $name, $value in map.get($spacing_settings_array, "marginvertical") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          margin-top: #{$value},
+          margin-bottom: #{$value},
+        )
+      );
+    }
+  }
+}
+
+@include generate-spacing-utilities();

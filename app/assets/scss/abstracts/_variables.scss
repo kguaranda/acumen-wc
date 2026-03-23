@@ -1,0 +1,190 @@
+// Colors
+$color-purple: #70147d;
+$color-magenta: #e52d87;
+$color-white: #fff;
+$color-black: #000;
+$color-white-tint-light: rgba(255, 255, 255, 0.3);
+$color-white-tint-medium: rgba(255, 255, 255, 0.6);
+$color-white-tint-focus: rgba(255, 255, 255, 0.9);
+
+$color-cream: #f4d682;
+$color-bright-blue: #afe6e3;
+$color-pine-green: #2c2cb8;
+$color-regal-blue: #002f71;
+$color-dark-blue: #101a45;
+$color-light-grey: #f7f2ea;
+$color-dark-green: #064f23;
+$color-green: #087323;
+$color-bright-green: #09b064;
+$color-bright-red: #ffbcb0;
+$color-dark-red: #8c0f22;
+$color-lime: #a4e2c7;
+
+$base-font-family: "GellixRegular", sans-serif;
+$base-font-family-bold: "GellixBold", sans-serif;
+$base-font-family-semi-bold: "GellixSemiBold", sans-serif;
+$base-font-family-display: "BigShoulder", sans-serif;
+$base-font-size: 17px;
+$base-font-size-md: 18px;
+$base-font-size-lg: 18px;
+$base-font-size-tablet: 20px;
+$base-font-size-desktop: 18px;
+$base-line-height: 22.1px;
+$base-line-height-md: 25.2px;
+$base-line-height-lg: 25.2px;
+$base-bg-color: $color-light-grey;
+
+// Body big
+$text-size-bodyBig: 25px;
+$text-size-bodyBig-lh: 27.5px;
+$text-size-bodyBig-md: 38px;
+$text-size-bodyBig-md-lh: 42px;
+$text-size-bodyBig-lg: 38px;
+$text-size-bodyBig-lg-lh: 42px;
+// XLarge
+$text-size-xLarge: 60px;
+$text-size-xLarge-lh: 54px;
+$text-size-xLarge-md: 90px;
+$text-size-xLarge-md-lh: 80px;
+$text-size-xLarge-lg: 127px;
+$text-size-xLarge-lg-lh: 114px;
+// Large
+$text-size-large: 25px;
+$text-size-large-lh: 28px;
+$text-size-large-md: 32px;
+$text-size-large-md-lh: 38.4px;
+$text-size-large-lg: 32px;
+$text-size-large-lg-lh: 38.4px;
+// Medium
+$text-size-medium: 24px;
+$text-size-medium-lh: 32px;
+$text-size-medium-md: 24px;
+$text-size-medium-md-lh: 32px;
+$text-size-medium-lg: 24px;
+$text-size-medium-lg-lh: 32px;
+// SMall
+$text-size-small: 16px;
+$text-size-small-lh: 22px;
+$text-size-small-md: 16px;
+$text-size-small-md-lh: 22px;
+$text-size-small-lg: 16px;
+$text-size-small-lg-lh: 22px;
+
+// xSmall
+$text-size-xSmall: 14px;
+$text-size-xSmall-lh: 17px;
+$text-size-xSmall-md: 14px;
+$text-size-xSmall-md-lh: 17px;
+$text-size-xSmall-lg: 14px;
+$text-size-xSmall-lg-lh: 17px;
+// Footer Big
+$text-size-footerBig: 32px;
+$text-size-footerBig-lh: 32px;
+$text-size-footerBig-md: 42px;
+$text-size-footerBig-md-lh: 46.2px;
+$text-size-footerBig-lg: 48px;
+$text-size-footerBig-lg-lh: 52.8px;
+
+$text-size-asideFooter: 22px;
+$text-size-asideFooter-lh: 25.08px;
+
+// Big Shoulder
+$text-size-bigShoulder: 130px;
+$text-size-bigShoulder-giga: 170px;
+$text-size-bigShoulder-giga-md: 220px;
+$text-size-bigShoulder-giga-lg: 250px;
+
+// Color themes
+$color-theme-default: (
+  bg: $color-light-grey,
+  text: $color-dark-green,
+);
+
+$color-theme-climate-resilience: (
+  bg: $color-light-grey,
+  text: $color-dark-green,
+  text-alt: $color-bright-green,
+);
+
+$color-theme-farmer-survey-snapshot: (
+  bg: $color-bright-blue,
+  text: $color-dark-blue,
+);
+
+$color-theme-findings: (
+  bg: $color-bright-red,
+  text: $color-dark-red,
+);
+
+$color-theme-case-study: (
+  bg: $color-lime,
+  text: $color-green,
+);
+
+$color-theme-regal-blue: (
+  bg: $color-regal-blue,
+  text: $color-white,
+);
+
+$color-theme-dark-blue: (
+  bg: $color-dark-blue,
+  text: $color-white,
+);
+
+$color-theme-pine-green: (
+  bg: $color-pine-green,
+  text: $color-white,
+);
+
+$color-theme-dark-red: (
+  bg: $color-dark-red,
+  text: $color-white,
+);
+
+$color-theme-bright-green: (
+  bg: $color-green,
+  text: $color-white,
+);
+
+$color-theme-footer: (
+  bg: $color-purple,
+  text: $color-white,
+);
+
+// Color themes boxes
+$color-theme-box: (
+  bg: $color-green,
+);
+
+// Breakpoints
+$breakpoint-sm: 450px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1100px;
+$breakpoint-giga: 1920px;
+
+// Spacing
+$sm: 10px;
+$md: 20px;
+$lg: 35px;
+$giga: 80px;
+$giga-2: 120px;
+$giga-3: 200px;
+
+// Padding
+$base-padding-x: 40px;
+$base-padding-y: 20px;
+
+$base-padding-x-md: 60px;
+$base-padding-y-md: 40px;
+
+$base-padding-y-lg: 60px;
+$base-padding-x-lg: 65px;
+
+// Border radius
+$base-border-radius: 20px;
+
+//Grid
+$base-grid-gap: 30px;
+
+// container
+$container-max-width: 1800px;

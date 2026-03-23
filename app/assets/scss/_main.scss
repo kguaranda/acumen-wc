@@ -1,0 +1,11 @@
+@use "./abstracts/_mixins" as *;
+@use "./base/_reset.scss";
+@use "./abstracts/_variables" as *;
+@use "./base/_mediaQueries" as *;
+@use "./base/_base.scss";
+
+// Import flex and grid to register their utilities
+@use "./abstracts/_flex" as *;
+@use "./abstracts/_grid" as *;
+@use "./abstracts/_gradients" as *;
+@include output-all-utilities;

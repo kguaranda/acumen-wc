@@ -1,0 +1,106 @@
+@use "sass:map";
+@use "../abstracts/_variables" as *;
+@use "../base/_mediaQueries" as *;
+
+$breakpoints: (base, sm, md, lg, giga, giga-2);
+
+$utilities-base: ();
+$utilities-sm: ();
+$utilities-md: ();
+$utilities-lg: ();
+$utilities-giga: ();
+
+@mixin add-utility($breakpoint, $class, $props) {
+  @if $breakpoint == base {
+    $utilities-base: map.merge(
+      $utilities-base,
+      (
+        $class: $props,
+      )
+    ) !global;
+  } @else if $breakpoint == sm {
+    $utilities-sm: map.merge(
+      $utilities-sm,
+      (
+        $class: $props,
+      )
+    ) !global;
+  } @else if $breakpoint == md {
+    $utilities-md: map.merge(
+      $utilities-md,
+      (
+        $class: $props,
+      )
+    ) !global;
+  } @else if $breakpoint == lg {
+    $utilities-lg: map.merge(
+      $utilities-lg,
+      (
+        $class: $props,
+      )
+    ) !global;
+  } @else if $breakpoint == giga {
+    $utilities-giga: map.merge(
+      $utilities-giga,
+      (
+        $class: $props,
+      )
+    ) !global;
+  }
+}
+
+// Unified output mixin for all utilities
+@mixin output-all-utilities {
+  // Base
+  @each $class, $props in $utilities-base {
+    .#{$class} {
+      @each $prop, $val in $props {
+        #{$prop}: #{$val};
+      }
+    }
+  }
+
+  // sm
+  @include sm-up {
+    @each $class, $props in $utilities-sm {
+      .sm\:#{$class} {
+        @each $prop, $val in $props {
+          #{$prop}: #{$val};
+        }
+      }
+    }
+  }
+
+  // md
+  @include md-up {
+    @each $class, $props in $utilities-md {
+      .md\:#{$class} {
+        @each $prop, $val in $props {
+          #{$prop}: #{$val};
+        }
+      }
+    }
+  }
+
+  // lg
+  @include lg-up {
+    @each $class, $props in $utilities-lg {
+      .lg\:#{$class} {
+        @each $prop, $val in $props {
+          #{$prop}: #{$val};
+        }
+      }
+    }
+  }
+
+  // giga
+  @include giga-up {
+    @each $class, $props in $utilities-giga {
+      .giga\:#{$class} {
+        @each $prop, $val in $props {
+          #{$prop}: #{$val};
+        }
+      }
+    }
+  }
+}

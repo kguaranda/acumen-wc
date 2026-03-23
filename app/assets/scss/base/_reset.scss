@@ -1,0 +1,230 @@
+/* CSS Reset - Modern Reset based on Josh's Custom CSS Reset */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+p:emptyf {
+  display: none;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Additional resets for common elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Remove default button styles */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Remove default fieldset styles */
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default legend styles */
+legend {
+  padding: 0;
+}
+
+/* Remove default table styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default form element styles */
+input,
+textarea,
+select {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Remove default link styles */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default quote styles */
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* Remove default table styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default hr styles */
+hr {
+  border: none;
+  height: 1px;
+  background: currentColor;
+}
+
+/* Remove default details/summary styles */
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+  cursor: pointer;
+}
+
+/* Remove default dialog styles */
+dialog {
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
+/* Remove default meter styles */
+meter {
+  background: none;
+  border: none;
+}
+
+/* Remove default progress styles */
+progress {
+  background: none;
+  border: none;
+}
+
+/* Remove default ruby styles */
+ruby {
+  display: ruby;
+}
+
+rt {
+  display: ruby-text;
+}
+
+/* Remove default mark styles */
+mark {
+  background: none;
+  color: inherit;
+}
+
+/* Remove default small styles */
+small {
+  font-size: inherit;
+}
+
+/* Remove default sub/sup styles */
+sub,
+sup {
+  font-size: inherit;
+  line-height: inherit;
+  position: static;
+  vertical-align: baseline;
+}
+
+/* Remove default time styles */
+time {
+  display: inline;
+}
+
+/* Remove default wbr styles */
+wbr {
+  display: inline;
+}

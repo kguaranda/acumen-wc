@@ -1,0 +1,35 @@
+@use "sass:map";
+
+@use "../abstracts/_variables" as *;
+@use "../base/_mediaQueries" as *;
+@use "./mixins" as *;
+
+$cursor_settings_array: (
+  "cursor": (
+    "pointer": pointer,
+    "default": default,
+    "not-allowed": not-allowed,
+    "grab": grab,
+    "grabbing": grabbing,
+    "ew-resize": ew-resize,
+    "ns-resize": ns-resize,
+    "nesw-resize": nesw-resize,
+    "nwse-resize": nwse-resize,
+  ),
+);
+
+@mixin generate-cursor-utilities() {
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($cursor_settings_array, "cursor") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          cursor: $value,
+        )
+      );
+    }
+  }
+}
+
+@include generate-cursor-utilities();

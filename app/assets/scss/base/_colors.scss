@@ -1,0 +1,69 @@
+@use "../abstracts/_variables" as *;
+@use "./_mediaQueries" as *;
+@use "../abstracts/_mixins" as *;
+
+.bg-purple {
+  background-color: $color-purple;
+}
+.bg-magenta {
+  background-color: $color-magenta;
+}
+
+.bg-light-grey {
+  background-color: $color-light-grey;
+}
+
+.bg-dark-blue {
+  background-color: $color-dark-blue;
+}
+
+.bg-dark-green {
+  background-color: $color-dark-green;
+}
+.bg-dark-red {
+  background-color: $color-dark-red;
+}
+
+.bg-cream {
+  background-color: $color-cream;
+}
+
+.bg-green {
+  background-color: $color-green;
+}
+
+.color-current {
+  color: currentColor;
+}
+
+.color-white {
+  color: $color-white;
+}
+
+.color-blue {
+  color: blue;
+}
+
+.color-green {
+  color: green;
+}
+
+.color-summary {
+  color: $color-green;
+
+  @include lg-up {
+    color: currentColor;
+  }
+}
+
+.color-nav {
+  color: $color-dark-green;
+
+  @include lg-up {
+    color: currentColor;
+  }
+}
+
+.color-red {
+  color: red;
+}

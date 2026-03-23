@@ -1,0 +1,97 @@
+@use "../abstracts/_variables" as *;
+
+@mixin sm-up {
+  @media (min-width: $breakpoint-sm) {
+    @content;
+  }
+}
+
+@mixin md-up {
+  @media (min-width: $breakpoint-md) {
+    @content;
+  }
+}
+
+@mixin lg-up {
+  @media (min-width: $breakpoint-lg) {
+    @content;
+  }
+}
+
+@mixin giga-up {
+  @media (min-width: $breakpoint-giga) {
+    @content;
+  }
+}
+
+// Max-width media queries (for desktop-first approach)
+@mixin sm-down {
+  @media (max-width: #{$breakpoint-sm - 1px}) {
+    @content;
+  }
+}
+
+@mixin md-down {
+  @media (max-width: #{$breakpoint-md - 1px}) {
+    @content;
+  }
+}
+
+@mixin lg-down {
+  @media (max-width: #{$breakpoint-lg - 1px}) {
+    @content;
+  }
+}
+
+@mixin giga-down {
+  @media (max-width: #{$breakpoint-giga - 1px}) {
+    @content;
+  }
+}
+
+// Range media queries (between breakpoints)
+@mixin sm-only {
+  @media (min-width: $breakpoint-sm) and (max-width: #{$breakpoint-md - 1px}) {
+    @content;
+  }
+}
+
+@mixin md-only {
+  @media (min-width: $breakpoint-md) and (max-width: #{$breakpoint-lg - 1px}) {
+    @content;
+  }
+}
+
+@mixin lg-only {
+  @media (min-width: $breakpoint-lg) and (max-width: #{$breakpoint-giga - 1px}) {
+    @content;
+  }
+}
+
+// Custom range mixin for flexibility
+@mixin between($min, $max) {
+  @media (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+
+// Custom min-width mixin
+@mixin min-width($width) {
+  @media (min-width: $width) {
+    @content;
+  }
+}
+
+// Custom max-width mixin
+@mixin max-width($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+
+// Can hover mixin
+@mixin can-hover {
+  @media (hover: hover) {
+    @content;
+  }
+}

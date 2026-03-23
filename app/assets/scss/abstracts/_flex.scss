@@ -1,0 +1,192 @@
+@use "sass:map";
+
+@use "../abstracts/_variables" as *;
+@use "../base/_mediaQueries" as *;
+@use "./mixins" as *;
+
+$flex_settings_array: (
+  "gap": (
+    "gap-none": 0,
+    "gap": $sm,
+    "gap-md": $md,
+    "gap-lg": $lg,
+    "gap-giga": $giga,
+    "gap-giga-2": $giga-2,
+    "gap-giga-3": $giga-3,
+    "gap-grid": $base-grid-gap,
+  ),
+  "row-gap": (
+    "row-gap-none": 0,
+    "row-gap": $sm,
+    "row-gap-md": $md,
+    "row-gap-lg": $lg,
+    "row-gap-giga": $giga,
+    "row-gap-giga-2": $giga-2,
+    "row-gap-giga-3": $giga-3,
+    "row-gap-grid": $base-grid-gap,
+  ),
+  "justify-content": (
+    "flex-start",
+    "center",
+    "space-between",
+    "space-around",
+    "space-evenly",
+    "flex-end",
+  ),
+  "flex-direction": (
+    "row",
+    "column",
+    "row-reverse",
+    "column-reverse",
+  ),
+  "align-items": (
+    "start",
+    "center",
+    "end",
+    "stretch",
+    "baseline",
+  ),
+  "justify-self": (
+    "start",
+    "center",
+    "end",
+    "stretch",
+    "baseline",
+  ),
+  "align-self": (
+    "start",
+    "center",
+    "end",
+    "stretch",
+    "baseline",
+  ),
+  "flex": (
+    "0",
+    "1",
+  ),
+  "flex-wrap": (
+    "wrap",
+    "nowrap",
+    "wrap-reverse",
+  ),
+);
+
+// Flex utility generator
+@mixin generate-flex-utilities() {
+  // Gap utilities
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($flex_settings_array, "gap") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          gap: #{$value},
+        )
+      );
+    }
+  }
+  @each $breakpoint in $breakpoints {
+    @each $name, $value in map.get($flex_settings_array, "row-gap") {
+      @include add-utility(
+        $breakpoint,
+        "#{$name}",
+        (
+          row-gap: #{$value},
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    // Align items utilities
+    @each $value in map.get($flex_settings_array, "align-items") {
+      @include add-utility(
+        $breakpoint,
+        "items-#{$value}",
+        (
+          align-items: #{$value},
+        )
+      );
+    }
+
+    // Justify content utilities
+    @each $value in map.get($flex_settings_array, "justify-content") {
+      @include add-utility(
+        $breakpoint,
+        "justify-#{$value}",
+        (
+          justify-content: #{$value},
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $value in map.get($flex_settings_array, "flex-direction") {
+      @include add-utility(
+        $breakpoint,
+        "#{$value}",
+        (
+          flex-direction: #{$value},
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $value in map.get($flex_settings_array, "align-self") {
+      @include add-utility(
+        $breakpoint,
+        "align-self-#{$value}",
+        (
+          align-self: #{$value},
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $value in map.get($flex_settings_array, "justify-self") {
+      @include add-utility(
+        $breakpoint,
+        "justify-self-#{$value}",
+        (
+          justify-self: #{$value},
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $value in map.get($flex_settings_array, "flex-wrap") {
+      @include add-utility(
+        $breakpoint,
+        "#{$value}",
+        (
+          flex-wrap: #{$value},
+        )
+      );
+    }
+  }
+
+  @each $breakpoint in $breakpoints {
+    @each $value in map.get($flex_settings_array, "flex") {
+      @include add-utility(
+        $breakpoint,
+        "flex-#{$value}",
+        (
+          flex: #{$value},
+        )
+      );
+    }
+  }
+}
+
+@include generate-flex-utilities();
+
+%u-flex {
+  display: flex;
+}
+.flex {
+  @extend %u-flex;
+}
