@@ -1,0 +1,7962 @@
+/* Desktop - 23 */
+
+position: relative;
+width: 1440px;
+height: 5578px;
+
+background: #e8f0f7;
+
+/* Rectangle 161 */
+
+position: absolute;
+width: 1440px;
+height: 100px;
+left: 0px;
+top: 4176px;
+
+background: #e8f0f7;
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 1440px;
+height: 48px;
+left: calc(50% - 1440px / 2);
+top: 1918px;
+
+background: #002f71;
+
+/* Rectangle 58 */
+
+position: absolute;
+width: 440px;
+height: 45px;
+left: 931px;
+top: 1772px;
+
+background: #00a0cc;
+border-radius: 15px;
+
+/* Rectangle 59 */
+
+position: absolute;
+width: 440px;
+height: 45px;
+left: 931px;
+top: 1817px;
+
+background: #ce242b;
+border-radius: 15px;
+
+/* Rectangle 55 */
+
+position: absolute;
+width: 440px;
+height: 45px;
+left: 931px;
+top: 1369px;
+
+background: #2c2cb8;
+border-radius: 15px;
+
+/* Rectangle 93 */
+
+position: absolute;
+width: 440px;
+height: 45px;
+left: 931px;
+top: 1414px;
+
+background: #2a6eeb;
+border-radius: 15px;
+
+/* Rectangle 94 */
+
+position: absolute;
+width: 440px;
+height: 313px;
+left: 931px;
+top: 1459px;
+
+background: #2a6eeb;
+border-radius: 15px;
+
+/* Rectangle 57 */
+
+position: absolute;
+width: 440px;
+height: 45px;
+left: 931px;
+top: 1324px;
+
+background: #002f71;
+border-radius: 15px;
+
+/* $100 USD */
+
+position: absolute;
+width: 89px;
+height: 22px;
+left: 1263px;
+top: 1426px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+text-align: right;
+
+color: #ffffff;
+
+/* The Midfield Engine */
+
+position: absolute;
+width: 181px;
+height: 22px;
+left: 982px;
+top: 1426px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* Help us change the game */
+
+position: absolute;
+width: 895px;
+height: 172px;
+left: 272px;
+top: 947px;
+
+font-family: "Piepie";
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 86px;
+text-align: center;
+
+color: #002f71;
+
+/* Meet the Game Changers */
+
+position: absolute;
+width: 790px;
+height: 172px;
+left: calc(50% - 790px / 2);
+top: 2015px;
+
+font-family: "Piepie";
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 86px;
+text-align: center;
+
+color: #002f71;
+
+/* The Backline */
+
+position: absolute;
+width: 118px;
+height: 22px;
+left: 982px;
+top: 1381px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* Match MVP */
+
+position: absolute;
+width: 107px;
+height: 22px;
+left: 982px;
+top: 1336px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* The Super Sub */
+
+position: absolute;
+width: 133px;
+height: 22px;
+left: 982px;
+top: 1784px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* Become a Fan */
+
+position: absolute;
+width: 128px;
+height: 22px;
+left: 982px;
+top: 1829px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* $25 USD */
+
+position: absolute;
+width: 79px;
+height: 22px;
+left: 1273px;
+top: 1784px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+text-align: right;
+
+color: #ffffff;
+
+/* $500 USD */
+
+position: absolute;
+width: 93px;
+height: 22px;
+left: 1259px;
+top: 1381px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+text-align: right;
+
+color: #ffffff;
+
+/* $1000 USD */
+
+position: absolute;
+width: 102px;
+height: 22px;
+left: 1250px;
+top: 1336px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+text-align: right;
+
+color: #ffffff;
+
+/* Always moving the game forward. Your contribution helps strengthen the entrepreneurs building climate resilience where it matters most. */
+
+position: absolute;
+width: 391px;
+height: 88px;
+left: 955px;
+top: 1599px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* * Acumen Fund, Inc. is a not for profit corporation formed under the laws of the State of New York and a public charity under Section 501(c)(3) of the Internal Revenue Code, with offices at 40 Worth Street, Suite 303, New York, NY 10013. The initiatives and examples described on this webpage are solely intended to illustrate the types of activities that may be supported by donations. Donations will be used to support Acumen’s general charitable purposes and programs, in furtherance of its mission to change the way the world tackles poverty. This campaign is not endorsed by, sponsored by, or affiliated with FIFA or any World Cup organizing body.  For New York Residents: Our most recent financial statements are accessible on our website at acumen.org or from the Attorney General’s Charities Bureau’s Website (www.charitiesnys.com). You also may obtain information on charities from the Attorney General at (212)-416-8401. For Florida Residents: A COPY OF THE OFFICIAL REGISTRATION AND FINANCIAL INFORMATION MAY BE OBTAINED FROM THE DIVISION OF CONSUMER SERVICES BY CALLING TOLL-FREE WITHIN THE STATE, 1-800-435-7352 (800-HELP-FLA), OR VISITING FDACS.GOV. REGISTRATION DOES NOT IMPLY ENDORSEMENT, APPROVAL, OR RECOMMENDATION BY THE STATE. FLORIDA REGISTRATION #CH43260. */
+
+position: absolute;
+width: 760px;
+height: 208px;
+left: calc(50% - 760px / 2);
+top: 3325px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #002f71;
+
+/* Vector 9 */
+
+position: absolute;
+width: 417px;
+height: 0px;
+left: 942px;
+top: 1459px;
+
+border: 3px dashed #000000;
+
+/* Rectangle 61 */
+
+position: absolute;
+width: 225px;
+height: 42px;
+left: 1038px;
+top: 1706.71px;
+
+background: #ffffff;
+border-radius: 50px;
+
+/* Donate */
+
+position: absolute;
+width: 120px;
+height: 35px;
+left: 1091px;
+top: 1709.71px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+/* identical to box height, or 109% */
+
+color: #000000;
+
+/* Santiago Rodriguez */
+
+position: absolute;
+width: 181px;
+height: 22px;
+left: calc(50% - 181px / 2 - 557.5px);
+top: 1931px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* Santiago Rodriguez */
+
+position: absolute;
+width: 181px;
+height: 22px;
+left: calc(50% - 181px / 2 - 55.5px);
+top: 1931px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* Santiago Rodriguez */
+
+position: absolute;
+width: 181px;
+height: 22px;
+left: calc(50% - 181px / 2 + 456.5px);
+top: 1931px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* Santiago Rodriguez */
+
+position: absolute;
+width: 181px;
+height: 22px;
+left: calc(50% - 181px / 2 + 718.5px);
+top: 1931px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* Santiago Rodriguez */
+
+position: absolute;
+width: 181px;
+height: 22px;
+left: calc(50% - 181px / 2 - 306.5px);
+top: 1931px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* Santiago Rodriguez */
+
+position: absolute;
+width: 181px;
+height: 22px;
+left: calc(50% - 181px / 2 + 200.5px);
+top: 1931px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* You’ve waited four years for the games to begin, now help us invest in the next 40. */
+
+position: absolute;
+width: 754px;
+height: 72px;
+left: calc(50% - 754px / 2 + 9px);
+top: 739px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+
+color: #000000;
+
+/* The climate crisis is already here. Yet less than 10% of global climate finance goes toward helping communities adapt to it. Acumen invests in local entrepreneurs building practical solutions for the people most exposed. */
+
+position: absolute;
+width: 754px;
+height: 66px;
+left: calc(50% - 754px / 2 + 9px);
+top: 827px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+
+color: #000000;
+
+/* Help fill our virtual stadium to support entrepreneurs helping low income communities adapt to climate change. Choose your section and back real solutions built for the long term.* */
+
+position: absolute;
+width: 760px;
+height: 66px;
+left: calc(50% - 760px / 2 + 12px);
+top: 1158px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+
+color: #000000;
+
+/* Every game has its leaders. Meet the people driving climate adaptation in the communities most exposed to change. Their work proves resilience isn’t abstract, it’s built, scaled, and sustained by people on the ground. */
+
+position: absolute;
+width: 760px;
+height: 66px;
+left: calc(50% - 760px / 2 + 12px);
+top: 2204px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+
+color: #000000;
+
+/* Group 58 */
+
+position: absolute;
+width: 792px;
+height: 561.49px;
+left: 69px;
+top: 1311px;
+
+/* Rectangle 62 */
+
+position: absolute;
+width: 636.73px;
+height: 402.05px;
+left: 156.08px;
+top: 1390.67px;
+
+background: #a4e2c7;
+
+/* Group 56 */
+
+position: absolute;
+width: 459.52px;
+height: 298.66px;
+left: 235.13px;
+top: 1442.55px;
+
+/* Group 55 */
+
+position: absolute;
+width: 459.52px;
+height: 298.66px;
+left: 235.13px;
+top: 1442.55px;
+
+/* Vector */
+
+position: absolute;
+width: 459.52px;
+height: 298.66px;
+left: 235.13px;
+top: 1442.55px;
+
+background: #097324;
+
+/* Group */
+
+position: absolute;
+left: 17.87%;
+right: 52.77%;
+top: 26.28%;
+bottom: 69.14%;
+
+/* Vector */
+
+position: absolute;
+left: 32.55%;
+right: 52.77%;
+top: 26.28%;
+bottom: 69.14%;
+
+border: 4px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 41.56%;
+right: 52.77%;
+top: 26.75%;
+bottom: 69.64%;
+
+border: 4px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 45.42%;
+right: 52.77%;
+top: 27.72%;
+bottom: 70.62%;
+
+border: 4px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 32.55%;
+right: 64.34%;
+top: 27.76%;
+bottom: 70.63%;
+
+border: 4px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 40.18%;
+right: 58.44%;
+top: 27.91%;
+bottom: 70.76%;
+
+border: 4px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 17.87%;
+right: 67.45%;
+top: 26.28%;
+bottom: 69.14%;
+
+border: 4px solid #ffffff;
+transform: rotate(180deg);
+
+/* Vector */
+
+position: absolute;
+left: 17.87%;
+right: 76.46%;
+top: 26.78%;
+bottom: 69.61%;
+
+border: 4px solid #ffffff;
+transform: rotate(180deg);
+
+/* Vector */
+
+position: absolute;
+left: 17.87%;
+right: 80.32%;
+top: 27.75%;
+bottom: 70.58%;
+
+border: 4px solid #ffffff;
+transform: rotate(180deg);
+
+/* Vector */
+
+position: absolute;
+left: 29.44%;
+right: 67.45%;
+top: 27.76%;
+bottom: 70.63%;
+
+border: 4px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 23.54%;
+right: 75.08%;
+top: 27.9%;
+bottom: 70.77%;
+
+border: 4px solid #ffffff;
+
+/* Group 57 */
+
+position: absolute;
+width: 792px;
+height: 561.49px;
+left: 69px;
+top: 1311px;
+
+/* Vector */
+
+position: absolute;
+left: 8.13%;
+right: 43.54%;
+top: 31.22%;
+bottom: 66.43%;
+
+background: #2a6eeb;
+border: 10px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 36.9%;
+right: 43.54%;
+top: 23.5%;
+bottom: 74.15%;
+
+background: #2c2cb8;
+border: 10px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 24.29%;
+right: 59.7%;
+top: 23.5%;
+bottom: 74.54%;
+
+background: #002f71;
+border: 10px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 24.29%;
+right: 59.7%;
+top: 31.61%;
+bottom: 66.43%;
+
+background: #002f71;
+border: 10px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 8.13%;
+right: 72.32%;
+top: 23.5%;
+bottom: 74.15%;
+
+background: #2c2cb8;
+border: 10px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 4.79%;
+right: 85.71%;
+top: 24.93%;
+bottom: 67.86%;
+
+background: #ce242b;
+border: 10px solid #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 50.29%;
+right: 40.21%;
+top: 24.93%;
+bottom: 67.86%;
+
+background: #00a0cc;
+border: 10px solid #ffffff;
+
+/* Midfield Engine */
+
+position: absolute;
+width: 142px;
+height: 22px;
+left: 588px;
+top: 1801px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* Midfield Engine */
+
+position: absolute;
+width: 142px;
+height: 22px;
+left: 181px;
+top: 1801px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* The Backline */
+
+position: absolute;
+width: 118px;
+height: 22px;
+left: 206px;
+top: 1362px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* The Backline */
+
+position: absolute;
+width: 118px;
+height: 22px;
+left: 597px;
+top: 1365px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* Match MVP */
+
+position: absolute;
+width: 60px;
+height: 44px;
+left: 437px;
+top: 1798px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+text-align: center;
+
+color: #ffffff;
+
+/* Match MVP */
+
+position: absolute;
+width: 60px;
+height: 44px;
+left: 437px;
+top: 1344px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+text-align: center;
+
+color: #ffffff;
+
+/* The 12th Player */
+
+position: absolute;
+width: 142px;
+height: 22px;
+left: 803px;
+top: 1521px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #000000;
+
+transform: rotate(90deg);
+
+/* Zone 1 */
+
+position: absolute;
+width: 59px;
+height: 22px;
+left: 104px;
+top: 1562px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+transform: rotate(-90deg);
+
+/* Vector */
+
+position: absolute;
+height: 90px;
+left: 76.67%;
+right: 16.88%;
+top: calc(50% - 90px / 2 - 1255px);
+
+background: #ffffff;
+
+/* Rectangle 65 */
+
+position: absolute;
+width: 1440px;
+height: 458px;
+left: calc(50% - 1440px / 2);
+top: 3573px;
+
+background: #002f71;
+
+/* Group 76 */
+
+position: absolute;
+width: 104px;
+height: 104.73px;
+left: 57px;
+top: 3604px;
+
+/* Vector */
+
+position: absolute;
+left: 6.95%;
+right: 91.49%;
+top: 65.8%;
+bottom: 33.77%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 8.53%;
+right: 89.7%;
+top: 65.41%;
+bottom: 34.18%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 7.69%;
+right: 90.45%;
+top: 64.93%;
+bottom: 34.6%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 5.97%;
+right: 91.25%;
+top: 64.61%;
+bottom: 35.02%;
+
+background: #ff0000;
+
+/* Vector */
+
+position: absolute;
+left: 9.55%;
+right: 88.82%;
+top: 64.91%;
+bottom: 34.39%;
+
+background: #ff0000;
+
+/* Vector */
+
+position: absolute;
+left: 8.48%;
+right: 89.12%;
+top: 65.81%;
+bottom: 33.62%;
+
+background: #ff0000;
+
+/* Vector */
+
+position: absolute;
+left: 4.81%;
+right: 92.84%;
+top: 65.9%;
+bottom: 33.51%;
+
+background: #ff0000;
+
+/* Vector */
+
+position: absolute;
+left: 3.96%;
+right: 94.21%;
+top: 65.07%;
+bottom: 34.28%;
+
+background: #ff0000;
+
+/* Vector */
+
+position: absolute;
+left: 5.21%;
+right: 93.08%;
+top: 65.59%;
+bottom: 34.1%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 5.79%;
+right: 92.32%;
+top: 64.98%;
+bottom: 34.42%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 1.46%;
+right: 96.6%;
+top: 34.64%;
+bottom: 64.99%;
+
+background: #ff3500;
+
+/* Vector */
+
+position: absolute;
+height: 24px;
+left: 19.17%;
+right: 79.17%;
+top: calc(50% - 24px / 2 - 848px);
+
+background: #ff3500;
+
+/* Vector */
+
+position: absolute;
+height: 22px;
+left: 36.6%;
+right: 61.88%;
+top: calc(50% - 22px / 2 - 848px);
+
+background: #ff3500;
+
+/* Group 81 */
+
+position: absolute;
+width: 36.45px;
+height: 20.63px;
+left: 774px;
+top: 1931px;
+
+/* Vector */
+
+position: absolute;
+left: 53.75%;
+right: 45.13%;
+top: 34.83%;
+bottom: 65.01%;
+
+background: #ff3500;
+
+/* Vector */
+
+position: absolute;
+left: 55.06%;
+right: 43.72%;
+top: 34.82%;
+bottom: 65.02%;
+
+background: #ff3500;
+
+/* Vector */
+
+position: absolute;
+left: 54.23%;
+right: 44.3%;
+top: 34.62%;
+bottom: 65.21%;
+
+background: #ff3500;
+
+/* Group 79 */
+
+position: absolute;
+width: 36.46px;
+height: 19.7px;
+left: 1289px;
+top: 1932.35px;
+
+/* Vector */
+
+position: absolute;
+left: 91.44%;
+right: 7.95%;
+top: 34.64%;
+bottom: 65.29%;
+
+background: #ff3500;
+
+/* Vector */
+
+position: absolute;
+left: 91.44%;
+right: 7.97%;
+top: 34.77%;
+bottom: 65.18%;
+
+background: #ff3500;
+
+/* Vector */
+
+position: absolute;
+left: 91.47%;
+right: 7.96%;
+top: 34.89%;
+bottom: 65.03%;
+
+background: #ff3500;
+
+/* Vector */
+
+position: absolute;
+left: 89.51%;
+right: 8.78%;
+top: 34.64%;
+bottom: 65%;
+
+background: #ff3500;
+
+/* Group 80 */
+
+position: absolute;
+width: 36.46px;
+height: 23.24px;
+left: 1030px;
+top: 1929.76px;
+
+/* Vector */
+
+position: absolute;
+left: 73.29%;
+right: 25.94%;
+top: 34.61%;
+bottom: 65.15%;
+
+background: #ff3500;
+
+/* Vector */
+
+position: absolute;
+left: 71.75%;
+right: 26.26%;
+top: 34.66%;
+bottom: 64.99%;
+
+background: #ff3500;
+
+/* Vector */
+
+position: absolute;
+left: 71.53%;
+right: 27.55%;
+top: 34.6%;
+bottom: 65.2%;
+
+background: #ff3500;
+
+/* By adding your name and email, you are agreeing to receive Acumen email communications, consent to our Terms of Use and Privacy Policy, and confirm that you are at least eighteen (18) years of age.* */
+
+position: absolute;
+width: 410px;
+height: 39px;
+left: 753px;
+top: 3779px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+
+color: #ffffff;
+
+/* First Name* */
+
+position: absolute;
+width: 86px;
+height: 18px;
+left: 744px;
+top: 3633px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height */
+
+color: #ffffff;
+
+/* Email* */
+
+position: absolute;
+width: 48px;
+height: 18px;
+left: 744px;
+top: 3715px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height */
+
+color: #ffffff;
+
+/* Last Name* */
+
+position: absolute;
+width: 87px;
+height: 18px;
+left: 1097px;
+top: 3633px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height */
+
+color: #ffffff;
+
+/* Privacy Policy */
+
+position: absolute;
+width: 75px;
+height: 13px;
+left: 1118px;
+top: 3915px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+
+color: #ffffff;
+
+/* Terms of Use */
+
+position: absolute;
+width: 70px;
+height: 13px;
+left: 1214px;
+top: 3915px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+
+color: #ffffff;
+
+/* Site Credit */
+
+position: absolute;
+width: 58px;
+height: 13px;
+left: 1305px;
+top: 3915px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+
+color: #ffffff;
+
+/* "*" indicates required fields */
+
+position: absolute;
+width: 410px;
+height: 13px;
+left: 753px;
+top: 3842px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 13px;
+
+color: #ffffff;
+
+/* Rectangle 77 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 335px;
+height: 63px;
+left: 720px;
+top: 3610px;
+
+border: 1px solid #ffffff;
+border-radius: 10px;
+
+/* Rectangle 78 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 335px;
+height: 63px;
+left: 1073px;
+top: 3610px;
+
+border: 1px solid #ffffff;
+border-radius: 10px;
+
+/* Rectangle 79 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 688px;
+height: 63px;
+left: 720px;
+top: 3692px;
+
+border: 1px solid #ffffff;
+border-radius: 10px;
+
+/* Rectangle 80 */
+
+position: absolute;
+width: 95px;
+height: 42px;
+left: 1313px;
+top: 3774px;
+
+background: #fdca00;
+border-radius: 21px;
+
+/* Rectangle 81 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 720px;
+top: 3774px;
+
+background: #d9d9d9;
+border-radius: 4px;
+
+/* Group 87 */
+
+position: absolute;
+width: 209px;
+height: 17px;
+left: 578px;
+top: 3913px;
+
+/* Rectangle 82 */
+
+position: absolute;
+width: 17px;
+height: 17px;
+left: 578px;
+top: 3913px;
+
+background: #d9d9d9;
+border-radius: 4px;
+
+/* Rectangle 83 */
+
+position: absolute;
+width: 17px;
+height: 17px;
+left: 626px;
+top: 3913px;
+
+background: #d9d9d9;
+border-radius: 4px;
+
+/* Rectangle 84 */
+
+position: absolute;
+width: 17px;
+height: 17px;
+left: 674px;
+top: 3913px;
+
+background: #d9d9d9;
+border-radius: 4px;
+
+/* Rectangle 85 */
+
+position: absolute;
+width: 17px;
+height: 17px;
+left: 722px;
+top: 3913px;
+
+background: #d9d9d9;
+border-radius: 4px;
+
+/* Rectangle 86 */
+
+position: absolute;
+width: 17px;
+height: 17px;
+left: 770px;
+top: 3913px;
+
+background: #d9d9d9;
+border-radius: 4px;
+
+/* Group 68 */
+
+position: absolute;
+width: 57.08px;
+height: 60px;
+left: 33px;
+top: 3941px;
+
+/* Group */
+
+position: absolute;
+left: 2.29%;
+right: 93.74%;
+top: 71.54%;
+bottom: 28.27%;
+
+/* Vector */
+
+position: absolute;
+left: 2.29%;
+right: 96.99%;
+top: 71.54%;
+bottom: 28.27%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 3.02%;
+right: 96.46%;
+top: 71.59%;
+bottom: 28.27%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 3.63%;
+right: 95.87%;
+top: 71.59%;
+bottom: 28.27%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 4.24%;
+right: 94.94%;
+top: 71.59%;
+bottom: 28.27%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 5.14%;
+right: 94.33%;
+top: 71.59%;
+bottom: 28.27%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 5.75%;
+right: 93.74%;
+top: 71.59%;
+bottom: 28.27%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 2.35%;
+right: 96.51%;
+top: 70.65%;
+bottom: 28.68%;
+
+background: #ffffff;
+opacity: 0.5;
+
+/* Vector */
+
+position: absolute;
+left: 4.32%;
+right: 93.74%;
+top: 70.65%;
+bottom: 28.54%;
+
+background: #ffffff;
+opacity: 0.5;
+
+/* Vector */
+
+position: absolute;
+left: 2.35%;
+right: 95.47%;
+top: 70.65%;
+bottom: 28.54%;
+
+background: #ffffff;
+
+/* Stand with the Champions. */
+
+position: absolute;
+width: 500px;
+height: 45px;
+left: 33px;
+top: 3718px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 45px;
+/* identical to box height */
+
+color: #ffffff;
+
+/* Join a growing community supporting climate resilience. Get stories, insights, and opportunities to stay involved. Love the World Game, love the world more. */
+
+position: absolute;
+width: 568px;
+height: 66px;
+left: 33px;
+top: 3773px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;
+
+/* Nav bar - triggered after donation names to go back */
+
+position: absolute;
+width: 568px;
+height: 22px;
+left: 33px;
+top: 4093px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 22px;
+
+color: #000000;
+
+/* Submit */
+
+position: absolute;
+width: 53px;
+height: 18px;
+left: 1334px;
+top: 3786px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height */
+
+color: #000000;
+
+/* Group 74 */
+
+position: absolute;
+width: 27px;
+height: 17.21px;
+left: 943px;
+top: 1339px;
+
+/* Vector */
+
+position: absolute;
+left: 66.79%;
+right: 32.64%;
+top: 24.01%;
+bottom: 75.81%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 65.65%;
+right: 32.87%;
+top: 24.06%;
+bottom: 75.69%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 65.49%;
+right: 33.83%;
+top: 24.01%;
+bottom: 75.85%;
+
+background: #ffffff;
+
+/* Group 75 */
+
+position: absolute;
+width: 27px;
+height: 15.28px;
+left: 943px;
+top: 1385px;
+
+/* Vector */
+
+position: absolute;
+left: 65.49%;
+right: 33.68%;
+top: 24.99%;
+bottom: 74.9%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 66.46%;
+right: 32.64%;
+top: 24.98%;
+bottom: 74.9%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 65.84%;
+right: 33.07%;
+top: 24.83%;
+bottom: 75.05%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+height: 20px;
+left: 65.69%;
+right: 32.85%;
+top: calc(50% - 20px / 2 - 1351px);
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+height: 22px;
+left: 65.69%;
+right: 32.92%;
+top: calc(50% - 22px / 2 - 994px);
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 65.49%;
+right: 32.64%;
+top: 32.79%;
+bottom: 66.83%;
+
+background: #ffffff;
+
+/* Group 125 */
+
+position: absolute;
+width: 1311.99px;
+height: 599.58px;
+left: calc(50% - 1311.99px / 2 - 0px);
+top: 58px;
+
+/* Mask group */
+
+position: absolute;
+width: 1061.73px;
+height: 599.58px;
+left: 64px;
+top: 58px;
+
+/* Vector */
+
+position: absolute;
+left: 4.44%;
+right: 21.82%;
+top: 1.04%;
+bottom: 88.21%;
+
+background: #ffffff;
+
+/* Screenshot 2026-03-05 at 3.31.16 PM 1 */
+
+position: absolute;
+width: 1444.23px;
+height: 803.85px;
+left: -2.83px;
+top: -43.92px;
+
+background: url(Screenshot 2026-03-05 at 3.31.16 PM.png);
+
+/* Mask group */
+
+position: absolute;
+width: 249.99px;
+height: 599.58px;
+left: 1126px;
+top: 58px;
+
+/* Vector */
+
+position: absolute;
+left: 78.19%;
+right: 4.45%;
+top: 1.04%;
+bottom: 88.21%;
+
+background: #ffffff;
+
+/* Screenshot 2026-03-05 at 3.31.16 PM 1 */
+
+position: absolute;
+width: 1444.23px;
+height: 803.85px;
+left: -3.34px;
+top: -43.92px;
+
+background: url(Screenshot 2026-03-05 at 3.31.16 PM.png);
+
+/* Group 124 */
+
+position: absolute;
+width: 100px;
+height: 105.11px;
+left: 1201px;
+top: 84px;
+
+/* Group */
+
+position: absolute;
+left: 83.4%;
+right: 9.65%;
+top: 3.06%;
+bottom: 96.61%;
+
+/* Vector */
+
+position: absolute;
+left: 83.4%;
+right: 15.34%;
+top: 3.06%;
+bottom: 96.61%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 84.68%;
+right: 14.4%;
+top: 3.15%;
+bottom: 96.61%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 85.74%;
+right: 13.37%;
+top: 3.15%;
+bottom: 96.61%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 86.81%;
+right: 11.76%;
+top: 3.15%;
+bottom: 96.61%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 88.39%;
+right: 10.69%;
+top: 3.15%;
+bottom: 96.61%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 89.46%;
+right: 9.65%;
+top: 3.15%;
+bottom: 96.61%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 83.5%;
+right: 14.49%;
+top: 1.51%;
+bottom: 97.33%;
+
+background: #ffffff;
+opacity: 0.5;
+
+/* Vector */
+
+position: absolute;
+left: 86.96%;
+right: 9.65%;
+top: 1.51%;
+bottom: 97.08%;
+
+background: #ffffff;
+opacity: 0.5;
+
+/* Vector */
+
+position: absolute;
+left: 83.5%;
+right: 12.68%;
+top: 1.51%;
+bottom: 97.08%;
+
+background: #ffffff;
+
+/* Swipe down */
+
+position: absolute;
+width: 134px;
+height: 27px;
+left: calc(50% - 134px / 2 + 531px);
+top: calc(50% - 27px / 2 - 2238.5px);
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 27px;
+/* identical to box height */
+
+color: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 85.28%;
+right: 11.53%;
+top: 10.22%;
+bottom: 89.14%;
+
+background: #ffffff;
+
+/* Group 82 */
+
+position: absolute;
+width: 245.19px;
+height: 176.46px;
+left: 108px;
+top: 341.54px;
+
+/* Vector */
+
+position: absolute;
+left: 7.98%;
+right: 91.06%;
+top: 6.13%;
+bottom: 93.52%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 8.97%;
+right: 89.64%;
+top: 6.12%;
+bottom: 93.51%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 10.34%;
+right: 88.28%;
+top: 6.13%;
+bottom: 93.52%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 11.77%;
+right: 87.17%;
+top: 6.13%;
+bottom: 93.52%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 13.17%;
+right: 85.78%;
+top: 6.13%;
+bottom: 93.52%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 14.3%;
+right: 84.38%;
+top: 6.13%;
+bottom: 93.52%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 15.74%;
+right: 83.21%;
+top: 6.13%;
+bottom: 93.52%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 17.11%;
+right: 80.77%;
+top: 6.13%;
+bottom: 93.52%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 19.22%;
+right: 79.39%;
+top: 6.12%;
+bottom: 93.51%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 20.69%;
+right: 77.93%;
+top: 6.13%;
+bottom: 93.52%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 22.12%;
+right: 76.92%;
+top: 6.13%;
+bottom: 93.52%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 23.15%;
+right: 75.49%;
+top: 6.13%;
+bottom: 93.52%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 7.98%;
+right: 91.06%;
+top: 7.79%;
+bottom: 91.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 8.97%;
+right: 89.64%;
+top: 7.78%;
+bottom: 91.84%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 10.34%;
+right: 88.28%;
+top: 7.79%;
+bottom: 91.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 11.77%;
+right: 87.17%;
+top: 7.79%;
+bottom: 91.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 13.17%;
+right: 85.78%;
+top: 7.79%;
+bottom: 91.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 14.3%;
+right: 84.38%;
+top: 7.79%;
+bottom: 91.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 15.74%;
+right: 83.21%;
+top: 7.79%;
+bottom: 91.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 17.11%;
+right: 80.77%;
+top: 7.79%;
+bottom: 91.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 19.22%;
+right: 79.39%;
+top: 7.78%;
+bottom: 91.84%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 20.69%;
+right: 77.93%;
+top: 7.79%;
+bottom: 91.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 22.12%;
+right: 76.92%;
+top: 7.79%;
+bottom: 91.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 23.15%;
+right: 75.49%;
+top: 7.79%;
+bottom: 91.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 7.5%;
+right: 89.04%;
+top: 6.58%;
+bottom: 92.31%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 11.05%;
+right: 84.67%;
+top: 6.61%;
+bottom: 92.34%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 15.48%;
+right: 78.99%;
+top: 6.61%;
+bottom: 92.34%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 21.37%;
+right: 75.48%;
+top: 6.61%;
+bottom: 92.34%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 7.99%;
+right: 86.81%;
+top: 8.27%;
+bottom: 90.74%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 17.54%;
+right: 78.59%;
+top: 8.27%;
+bottom: 90.74%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 21.56%;
+right: 75.47%;
+top: 8.27%;
+bottom: 90.74%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 13.41%;
+right: 82.68%;
+top: 8.24%;
+bottom: 90.71%;
+
+background: #ce242b;
+
+/* Group 83 */
+
+position: absolute;
+width: 206.95px;
+height: 208.35px;
+left: 125px;
+top: 107px;
+
+/* Vector */
+
+position: absolute;
+left: 14.64%;
+right: 82.25%;
+top: 4.28%;
+bottom: 94.86%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 17.78%;
+right: 78.7%;
+top: 3.5%;
+bottom: 95.69%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 16.11%;
+right: 80.19%;
+top: 2.55%;
+bottom: 96.51%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 12.69%;
+right: 81.78%;
+top: 1.92%;
+bottom: 97.35%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 19.81%;
+right: 76.95%;
+top: 2.52%;
+bottom: 96.09%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 17.67%;
+right: 77.55%;
+top: 4.31%;
+bottom: 94.56%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 10.38%;
+right: 84.95%;
+top: 4.48%;
+bottom: 94.35%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 8.68%;
+right: 87.68%;
+top: 2.83%;
+bottom: 95.88%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 11.18%;
+right: 85.42%;
+top: 3.86%;
+bottom: 95.52%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 12.32%;
+right: 83.91%;
+top: 2.65%;
+bottom: 96.16%;
+
+background: #ffffff;
+
+/* Your support funds the future */
+
+position: absolute;
+width: 874px;
+height: 71px;
+left: 114px;
+top: 544px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 71px;
+
+color: #ffffff;
+
+/* Group 117 */
+
+position: absolute;
+width: 662px;
+height: 469px;
+left: 46px;
+top: 2329px;
+
+/* Group 110 */
+
+position: absolute;
+width: 315px;
+height: 469px;
+left: 393px;
+top: 2329px;
+
+/* Rectangle 149 */
+
+position: absolute;
+width: 315px;
+height: 469px;
+left: 393px;
+top: 2329px;
+
+background: #ce242b;
+border-radius: 0px 5px 5px 0px;
+
+/* Andres Felipe González Espinosa */
+
+position: absolute;
+width: 277px;
+height: 114px;
+left: 417px;
+top: 2349px;
+
+font-family: "Piepie";
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #ffffff;
+
+/* Heather Terry believes food can be a force for regeneration. As founder and CEO of GoodSAM Foods, she partners with smallholder farmers and Indigenous communities across eight countries, proving that regenerative agriculture and fair models can scale impact while strengthening climate resilience and dignity. */
+
+position: absolute;
+width: 272px;
+height: 180px;
+left: 417px;
+top: 2545px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #ffffff;
+
+/* Co-founder & CEO of Omia Agribusiness Development Group. */
+
+position: absolute;
+width: 276px;
+height: 36px;
+left: 417px;
+top: 2473px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 18px;
+
+color: #ffffff;
+
+/* Learn more */
+
+position: absolute;
+width: 276px;
+height: 22px;
+left: 417px;
+top: 2756px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #ffffff;
+
+/* Group 111 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 46px;
+top: 2329px;
+
+/* Rectangle 148 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 46px;
+top: 2329px;
+
+background: #064f23;
+border-radius: 5px;
+
+/* Mask group */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 46px;
+top: 2329px;
+
+/* Rectangle 143 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 46px;
+top: 2329px;
+
+background: #002f71;
+border-radius: 5px;
+
+/* Group 103 */
+
+position: absolute;
+width: 708.73px;
+height: 559.38px;
+left: 22.14px;
+top: 2290.88px;
+
+/* Vector */
+
+position: absolute;
+left: 47.13%;
+right: 49.24%;
+top: 41.16%;
+bottom: 57.69%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 41.99%;
+bottom: 57.23%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 41.07%;
+bottom: 58.03%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 40.46%;
+right: 56.54%;
+top: 41.38%;
+bottom: 57.8%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 47.13%;
+right: 49.24%;
+top: 43.89%;
+bottom: 54.97%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 44.71%;
+bottom: 54.51%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 43.79%;
+bottom: 55.3%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 46.03%;
+right: 50.7%;
+top: 42.33%;
+bottom: 57.08%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 40.46%;
+right: 56.54%;
+top: 44.1%;
+bottom: 55.08%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 43.49%;
+right: 53.12%;
+top: 43.35%;
+bottom: 55.87%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 41.88%;
+right: 54.55%;
+top: 42.43%;
+bottom: 56.67%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 37.13%;
+right: 59.6%;
+top: 43.7%;
+bottom: 55.71%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 38.23%;
+right: 58.14%;
+top: 42.52%;
+bottom: 56.33%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 42.74%;
+bottom: 56.44%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 41.99%;
+bottom: 57.23%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 47.13%;
+right: 49.24%;
+top: 46.61%;
+bottom: 52.24%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 47.44%;
+bottom: 51.78%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 46.52%;
+bottom: 52.58%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 46.03%;
+right: 50.7%;
+top: 45.06%;
+bottom: 54.35%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 40.46%;
+right: 56.54%;
+top: 46.83%;
+bottom: 52.35%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 43.49%;
+right: 53.12%;
+top: 46.07%;
+bottom: 53.14%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 41.88%;
+right: 54.55%;
+top: 45.16%;
+bottom: 53.94%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 37.13%;
+right: 59.6%;
+top: 46.42%;
+bottom: 52.99%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 38.23%;
+right: 58.14%;
+top: 45.25%;
+bottom: 53.6%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 45.46%;
+bottom: 53.71%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 44.71%;
+bottom: 54.51%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 47.13%;
+right: 49.24%;
+top: 49.34%;
+bottom: 49.52%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 50.16%;
+bottom: 49.06%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 49.24%;
+bottom: 49.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 46.03%;
+right: 50.7%;
+top: 47.78%;
+bottom: 51.63%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 40.46%;
+right: 56.54%;
+top: 49.55%;
+bottom: 49.63%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 43.49%;
+right: 53.12%;
+top: 48.8%;
+bottom: 50.42%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 41.88%;
+right: 54.55%;
+top: 47.88%;
+bottom: 51.22%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 37.13%;
+right: 59.6%;
+top: 49.15%;
+bottom: 50.26%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 38.23%;
+right: 58.14%;
+top: 47.97%;
+bottom: 50.88%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 48.19%;
+bottom: 50.99%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 47.44%;
+bottom: 51.78%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 46.03%;
+right: 50.7%;
+top: 50.51%;
+bottom: 48.9%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 50.16%;
+bottom: 49.06%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 41.07%;
+bottom: 58.03%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 29.33%;
+right: 67.04%;
+top: 41.16%;
+bottom: 57.69%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 41.99%;
+bottom: 57.23%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 41.07%;
+bottom: 58.03%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 22.66%;
+right: 74.34%;
+top: 41.38%;
+bottom: 57.8%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 43.79%;
+bottom: 55.3%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 29.33%;
+right: 67.04%;
+top: 43.89%;
+bottom: 54.97%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 44.71%;
+bottom: 54.51%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 43.79%;
+bottom: 55.3%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 42.74%;
+bottom: 56.44%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 28.23%;
+right: 68.5%;
+top: 42.33%;
+bottom: 57.08%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 22.66%;
+right: 74.34%;
+top: 44.1%;
+bottom: 55.08%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 25.69%;
+right: 70.91%;
+top: 43.35%;
+bottom: 55.87%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 24.08%;
+right: 72.35%;
+top: 42.43%;
+bottom: 56.67%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 19.33%;
+right: 77.39%;
+top: 43.7%;
+bottom: 55.71%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 20.43%;
+right: 75.94%;
+top: 42.52%;
+bottom: 56.33%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 42.74%;
+bottom: 56.44%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 41.99%;
+bottom: 57.23%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 46.52%;
+bottom: 52.58%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 29.33%;
+right: 67.04%;
+top: 46.61%;
+bottom: 52.24%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 47.44%;
+bottom: 51.78%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 46.52%;
+bottom: 52.58%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 45.46%;
+bottom: 53.71%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 28.23%;
+right: 68.5%;
+top: 45.06%;
+bottom: 54.35%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 22.66%;
+right: 74.34%;
+top: 46.83%;
+bottom: 52.35%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 25.69%;
+right: 70.91%;
+top: 46.07%;
+bottom: 53.14%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 24.08%;
+right: 72.35%;
+top: 45.16%;
+bottom: 53.94%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 19.33%;
+right: 77.39%;
+top: 46.42%;
+bottom: 52.99%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 20.43%;
+right: 75.94%;
+top: 45.25%;
+bottom: 53.6%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 45.46%;
+bottom: 53.71%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 44.71%;
+bottom: 54.51%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 49.24%;
+bottom: 49.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 29.33%;
+right: 67.04%;
+top: 49.34%;
+bottom: 49.52%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 50.16%;
+bottom: 49.06%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 49.24%;
+bottom: 49.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 48.19%;
+bottom: 50.99%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 28.23%;
+right: 68.5%;
+top: 47.78%;
+bottom: 51.63%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 22.66%;
+right: 74.34%;
+top: 49.55%;
+bottom: 49.63%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 25.69%;
+right: 70.91%;
+top: 48.8%;
+bottom: 50.42%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 24.08%;
+right: 72.35%;
+top: 47.88%;
+bottom: 51.22%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 19.33%;
+right: 77.39%;
+top: 49.15%;
+bottom: 50.26%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 20.43%;
+right: 75.94%;
+top: 47.97%;
+bottom: 50.88%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 48.19%;
+bottom: 50.99%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 47.44%;
+bottom: 51.78%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 28.23%;
+right: 68.5%;
+top: 50.51%;
+bottom: 48.9%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 50.16%;
+bottom: 49.06%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 41.07%;
+bottom: 58.03%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 11.54%;
+right: 84.83%;
+top: 41.16%;
+bottom: 57.69%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 4.87%;
+right: 92.13%;
+top: 41.38%;
+bottom: 57.8%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 43.79%;
+bottom: 55.3%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 11.54%;
+right: 84.83%;
+top: 43.89%;
+bottom: 54.97%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 42.74%;
+bottom: 56.44%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 10.44%;
+right: 86.29%;
+top: 42.33%;
+bottom: 57.08%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 4.87%;
+right: 92.13%;
+top: 44.1%;
+bottom: 55.08%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 7.9%;
+right: 88.7%;
+top: 43.35%;
+bottom: 55.87%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 6.29%;
+right: 90.14%;
+top: 42.43%;
+bottom: 56.67%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 1.54%;
+right: 95.19%;
+top: 43.7%;
+bottom: 55.71%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 2.64%;
+right: 93.73%;
+top: 42.52%;
+bottom: 56.33%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 46.52%;
+bottom: 52.58%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 11.54%;
+right: 84.83%;
+top: 46.61%;
+bottom: 52.24%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 45.46%;
+bottom: 53.71%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 10.44%;
+right: 86.29%;
+top: 45.06%;
+bottom: 54.35%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 4.87%;
+right: 92.13%;
+top: 46.83%;
+bottom: 52.35%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 7.9%;
+right: 88.7%;
+top: 46.07%;
+bottom: 53.14%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 6.29%;
+right: 90.14%;
+top: 45.16%;
+bottom: 53.94%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 1.54%;
+right: 95.19%;
+top: 46.42%;
+bottom: 52.99%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 2.64%;
+right: 93.73%;
+top: 45.25%;
+bottom: 53.6%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 49.24%;
+bottom: 49.85%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 11.54%;
+right: 84.83%;
+top: 49.34%;
+bottom: 49.52%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 48.19%;
+bottom: 50.99%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 10.44%;
+right: 86.29%;
+top: 47.78%;
+bottom: 51.63%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 4.87%;
+right: 92.13%;
+top: 49.55%;
+bottom: 49.63%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 7.9%;
+right: 88.7%;
+top: 48.8%;
+bottom: 50.42%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 6.29%;
+right: 90.14%;
+top: 47.88%;
+bottom: 51.22%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 1.54%;
+right: 95.19%;
+top: 49.15%;
+bottom: 50.26%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 2.64%;
+right: 93.73%;
+top: 47.97%;
+bottom: 50.88%;
+
+background: #ce242b;
+
+/* Vector */
+
+position: absolute;
+left: 10.44%;
+right: 86.29%;
+top: 50.51%;
+bottom: 48.9%;
+
+background: #ce242b;
+
+/* Rectangle 147 */
+
+position: absolute;
+width: 308px;
+height: 53px;
+left: 71px;
+top: 2725px;
+
+background: #ce242b;
+
+/* Mask group */
+
+position: absolute;
+width: 308px;
+height: 376px;
+left: 71px;
+top: 2349px;
+
+/* Rectangle 89 */
+
+position: absolute;
+width: 308px;
+height: 376px;
+left: 71px;
+top: 2349px;
+
+background: #d9d9d9;
+border-radius: 0px 110px 0px 0px;
+
+/* 50395360397_f3d051c26d_o 2 */
+
+position: absolute;
+width: 1041.93px;
+height: 543.31px;
+left: -296.53px;
+top: 2263.52px;
+
+background: url(50395360397_f3d051c26d_o.jpg);
+border-radius: 0px 110px 0px 0px;
+
+/* Amazonía Emprende */
+
+position: absolute;
+width: 227px;
+height: 27px;
+left: 141px;
+top: 2738px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+
+color: #ffffff;
+
+/* Mask group */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 71px;
+top: 2725px;
+
+/* Rectangle 92 */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 71px;
+top: 2725px;
+
+background: #d9d9d9;
+
+/* Group 79 */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 71px;
+top: 2725px;
+
+/* Rectangle 37 */
+
+position: absolute;
+width: 17.33px;
+height: 53px;
+left: 71px;
+top: 2725px;
+
+background: #097324;
+
+/* Rectangle 38 */
+
+position: absolute;
+width: 18.35px;
+height: 53px;
+left: 88.33px;
+top: 2725px;
+
+background: #ffffff;
+
+/* Rectangle 39 */
+
+position: absolute;
+width: 17.33px;
+height: 53px;
+left: 106.67px;
+top: 2725px;
+
+background: #097324;
+
+/* Group 121 */
+
+position: absolute;
+width: 662px;
+height: 469px;
+left: 46px;
+top: 2816px;
+
+/* Group 110 */
+
+position: absolute;
+width: 315px;
+height: 469px;
+left: 393px;
+top: 2816px;
+
+/* Rectangle 149 */
+
+position: absolute;
+width: 315px;
+height: 469px;
+left: 393px;
+top: 2816px;
+
+background: #087323;
+border-radius: 0px 5px 5px 0px;
+
+/* Andres Felipe González Espinosa */
+
+position: absolute;
+width: 277px;
+height: 114px;
+left: 417px;
+top: 2836px;
+
+font-family: "Piepie";
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #ffffff;
+
+/* Heather Terry believes food can be a force for regeneration. As founder and CEO of GoodSAM Foods, she partners with smallholder farmers and Indigenous communities across eight countries, proving that regenerative agriculture and fair models can scale impact while strengthening climate resilience and dignity. */
+
+position: absolute;
+width: 272px;
+height: 180px;
+left: 417px;
+top: 3032px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #ffffff;
+
+/* Co-founder & CEO of Omia Agribusiness Development Group. */
+
+position: absolute;
+width: 276px;
+height: 36px;
+left: 417px;
+top: 2960px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 18px;
+
+color: #ffffff;
+
+/* Learn more */
+
+position: absolute;
+width: 276px;
+height: 22px;
+left: 417px;
+top: 3243px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #ffffff;
+
+/* Group 111 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 46px;
+top: 2816px;
+
+/* Rectangle 148 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 46px;
+top: 2816px;
+
+background: #e52d87;
+border-radius: 5px;
+
+/* Mask group */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 46px;
+top: 2816px;
+
+/* Rectangle 143 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 46px;
+top: 2816px;
+
+background: #002f71;
+border-radius: 5px;
+
+/* Group 103 */
+
+position: absolute;
+width: 708.73px;
+height: 559.38px;
+left: 22.14px;
+top: 2777.88px;
+
+/* Vector */
+
+position: absolute;
+left: 47.13%;
+right: 49.24%;
+top: 49.89%;
+bottom: 48.96%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 50.72%;
+bottom: 48.5%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 49.8%;
+bottom: 49.3%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 40.46%;
+right: 56.54%;
+top: 50.11%;
+bottom: 49.07%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 47.13%;
+right: 49.24%;
+top: 52.62%;
+bottom: 46.23%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 53.44%;
+bottom: 45.78%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 52.53%;
+bottom: 46.57%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 46.03%;
+right: 50.7%;
+top: 51.06%;
+bottom: 48.35%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 40.46%;
+right: 56.54%;
+top: 52.83%;
+bottom: 46.35%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 43.49%;
+right: 53.12%;
+top: 52.08%;
+bottom: 47.14%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 41.88%;
+right: 54.55%;
+top: 51.16%;
+bottom: 47.93%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 37.13%;
+right: 59.6%;
+top: 52.43%;
+bottom: 46.98%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 38.23%;
+right: 58.14%;
+top: 51.25%;
+bottom: 47.6%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 51.47%;
+bottom: 47.71%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 50.72%;
+bottom: 48.5%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 47.13%;
+right: 49.24%;
+top: 55.34%;
+bottom: 43.51%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 56.17%;
+bottom: 43.05%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 55.25%;
+bottom: 43.85%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 46.03%;
+right: 50.7%;
+top: 53.79%;
+bottom: 45.62%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 40.46%;
+right: 56.54%;
+top: 55.56%;
+bottom: 43.62%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 43.49%;
+right: 53.12%;
+top: 54.8%;
+bottom: 44.41%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 41.88%;
+right: 54.55%;
+top: 53.89%;
+bottom: 45.21%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 37.13%;
+right: 59.6%;
+top: 55.15%;
+bottom: 44.26%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 38.23%;
+right: 58.14%;
+top: 53.98%;
+bottom: 44.87%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 54.19%;
+bottom: 44.98%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 53.44%;
+bottom: 45.78%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 47.13%;
+right: 49.24%;
+top: 58.07%;
+bottom: 40.78%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 58.89%;
+bottom: 40.33%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 57.98%;
+bottom: 41.12%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 46.03%;
+right: 50.7%;
+top: 56.51%;
+bottom: 42.9%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 40.46%;
+right: 56.54%;
+top: 58.28%;
+bottom: 40.9%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 43.49%;
+right: 53.12%;
+top: 57.53%;
+bottom: 41.69%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 41.88%;
+right: 54.55%;
+top: 56.61%;
+bottom: 42.48%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 37.13%;
+right: 59.6%;
+top: 57.88%;
+bottom: 41.53%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 38.23%;
+right: 58.14%;
+top: 56.7%;
+bottom: 42.15%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 56.92%;
+bottom: 42.26%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 56.17%;
+bottom: 43.05%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 46.03%;
+right: 50.7%;
+top: 59.24%;
+bottom: 40.17%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 34.59%;
+right: 62.01%;
+top: 58.89%;
+bottom: 40.33%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 49.8%;
+bottom: 49.3%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 29.33%;
+right: 67.04%;
+top: 49.89%;
+bottom: 48.96%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 50.72%;
+bottom: 48.5%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 49.8%;
+bottom: 49.3%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 22.66%;
+right: 74.34%;
+top: 50.11%;
+bottom: 49.07%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 52.53%;
+bottom: 46.57%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 29.33%;
+right: 67.04%;
+top: 52.62%;
+bottom: 46.23%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 53.44%;
+bottom: 45.78%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 52.53%;
+bottom: 46.57%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 51.47%;
+bottom: 47.71%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 28.23%;
+right: 68.5%;
+top: 51.06%;
+bottom: 48.35%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 22.66%;
+right: 74.34%;
+top: 52.83%;
+bottom: 46.35%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 25.69%;
+right: 70.91%;
+top: 52.08%;
+bottom: 47.14%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 24.08%;
+right: 72.35%;
+top: 51.16%;
+bottom: 47.93%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 19.33%;
+right: 77.39%;
+top: 52.43%;
+bottom: 46.98%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 20.43%;
+right: 75.94%;
+top: 51.25%;
+bottom: 47.6%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 51.47%;
+bottom: 47.71%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 50.72%;
+bottom: 48.5%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 55.25%;
+bottom: 43.85%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 29.33%;
+right: 67.04%;
+top: 55.34%;
+bottom: 43.51%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 56.17%;
+bottom: 43.05%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 55.25%;
+bottom: 43.85%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 54.19%;
+bottom: 44.98%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 28.23%;
+right: 68.5%;
+top: 53.79%;
+bottom: 45.62%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 22.66%;
+right: 74.34%;
+top: 55.56%;
+bottom: 43.62%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 25.69%;
+right: 70.91%;
+top: 54.8%;
+bottom: 44.41%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 24.08%;
+right: 72.35%;
+top: 53.89%;
+bottom: 45.21%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 19.33%;
+right: 77.39%;
+top: 55.15%;
+bottom: 44.26%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 20.43%;
+right: 75.94%;
+top: 53.98%;
+bottom: 44.87%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 54.19%;
+bottom: 44.98%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 53.44%;
+bottom: 45.78%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 32.98%;
+right: 63.45%;
+top: 57.98%;
+bottom: 41.12%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 29.33%;
+right: 67.04%;
+top: 58.07%;
+bottom: 40.78%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 58.89%;
+bottom: 40.33%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 57.98%;
+bottom: 41.12%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 31.56%;
+right: 65.44%;
+top: 56.92%;
+bottom: 42.26%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 28.23%;
+right: 68.5%;
+top: 56.51%;
+bottom: 42.9%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 22.66%;
+right: 74.34%;
+top: 58.28%;
+bottom: 40.9%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 25.69%;
+right: 70.91%;
+top: 57.53%;
+bottom: 41.69%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 24.08%;
+right: 72.35%;
+top: 56.61%;
+bottom: 42.48%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 19.33%;
+right: 77.39%;
+top: 57.88%;
+bottom: 41.53%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 20.43%;
+right: 75.94%;
+top: 56.7%;
+bottom: 42.15%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 56.92%;
+bottom: 42.26%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 56.17%;
+bottom: 43.05%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 28.23%;
+right: 68.5%;
+top: 59.24%;
+bottom: 40.17%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 16.8%;
+right: 79.81%;
+top: 58.89%;
+bottom: 40.33%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 49.8%;
+bottom: 49.3%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 11.54%;
+right: 84.83%;
+top: 49.89%;
+bottom: 48.96%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 4.87%;
+right: 92.13%;
+top: 50.11%;
+bottom: 49.07%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 52.53%;
+bottom: 46.57%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 11.54%;
+right: 84.83%;
+top: 52.62%;
+bottom: 46.23%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 51.47%;
+bottom: 47.71%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 10.44%;
+right: 86.29%;
+top: 51.06%;
+bottom: 48.35%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 4.87%;
+right: 92.13%;
+top: 52.83%;
+bottom: 46.35%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 7.9%;
+right: 88.7%;
+top: 52.08%;
+bottom: 47.14%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 6.29%;
+right: 90.14%;
+top: 51.16%;
+bottom: 47.93%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 1.54%;
+right: 95.19%;
+top: 52.43%;
+bottom: 46.98%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 2.64%;
+right: 93.73%;
+top: 51.25%;
+bottom: 47.6%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 55.25%;
+bottom: 43.85%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 11.54%;
+right: 84.83%;
+top: 55.34%;
+bottom: 43.51%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 54.19%;
+bottom: 44.98%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 10.44%;
+right: 86.29%;
+top: 53.79%;
+bottom: 45.62%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 4.87%;
+right: 92.13%;
+top: 55.56%;
+bottom: 43.62%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 7.9%;
+right: 88.7%;
+top: 54.8%;
+bottom: 44.41%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 6.29%;
+right: 90.14%;
+top: 53.89%;
+bottom: 45.21%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 1.54%;
+right: 95.19%;
+top: 55.15%;
+bottom: 44.26%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 2.64%;
+right: 93.73%;
+top: 53.98%;
+bottom: 44.87%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 15.18%;
+right: 81.25%;
+top: 57.98%;
+bottom: 41.12%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 11.54%;
+right: 84.83%;
+top: 58.07%;
+bottom: 40.78%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 13.77%;
+right: 83.24%;
+top: 56.92%;
+bottom: 42.26%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 10.44%;
+right: 86.29%;
+top: 56.51%;
+bottom: 42.9%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 4.87%;
+right: 92.13%;
+top: 58.28%;
+bottom: 40.9%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 7.9%;
+right: 88.7%;
+top: 57.53%;
+bottom: 41.69%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 6.29%;
+right: 90.14%;
+top: 56.61%;
+bottom: 42.48%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 1.54%;
+right: 95.19%;
+top: 57.88%;
+bottom: 41.53%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 2.64%;
+right: 93.73%;
+top: 56.7%;
+bottom: 42.15%;
+
+background: #087323;
+
+/* Vector */
+
+position: absolute;
+left: 10.44%;
+right: 86.29%;
+top: 59.24%;
+bottom: 40.17%;
+
+background: #087323;
+
+/* Rectangle 147 */
+
+position: absolute;
+width: 308px;
+height: 53px;
+left: 71px;
+top: 3212px;
+
+background: #087323;
+
+/* Mask group */
+
+position: absolute;
+width: 308px;
+height: 376px;
+left: 71px;
+top: 2836px;
+
+/* Rectangle 89 */
+
+position: absolute;
+width: 308px;
+height: 376px;
+left: 71px;
+top: 2836px;
+
+background: #d9d9d9;
+border-radius: 0px 110px 0px 0px;
+
+/* 50395360397_f3d051c26d_o 2 */
+
+position: absolute;
+width: 1041.93px;
+height: 543.31px;
+left: -296.53px;
+top: 2750.52px;
+
+background: url(50395360397_f3d051c26d_o.jpg);
+border-radius: 0px 110px 0px 0px;
+
+/* Amazonía Emprende */
+
+position: absolute;
+width: 227px;
+height: 27px;
+left: 141px;
+top: 3225px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+
+color: #ffffff;
+
+/* Group 120 */
+
+position: absolute;
+width: 662px;
+height: 469px;
+left: 733px;
+top: 2329px;
+
+/* Group 110 */
+
+position: absolute;
+width: 315px;
+height: 469px;
+left: 1080px;
+top: 2329px;
+
+/* Rectangle 149 */
+
+position: absolute;
+width: 315px;
+height: 469px;
+left: 1080px;
+top: 2329px;
+
+background: #4f005e;
+border-radius: 0px 5px 5px 0px;
+
+/* Andres Felipe González Espinosa */
+
+position: absolute;
+width: 277px;
+height: 114px;
+left: 1104px;
+top: 2349px;
+
+font-family: "Piepie";
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #ffffff;
+
+/* Heather Terry believes food can be a force for regeneration. As founder and CEO of GoodSAM Foods, she partners with smallholder farmers and Indigenous communities across eight countries, proving that regenerative agriculture and fair models can scale impact while strengthening climate resilience and dignity. */
+
+position: absolute;
+width: 272px;
+height: 180px;
+left: 1104px;
+top: 2545px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #ffffff;
+
+/* Co-founder & CEO of Omia Agribusiness Development Group. */
+
+position: absolute;
+width: 276px;
+height: 36px;
+left: 1104px;
+top: 2473px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 18px;
+
+color: #ffffff;
+
+/* Learn more */
+
+position: absolute;
+width: 276px;
+height: 22px;
+left: 1104px;
+top: 2756px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #ffffff;
+
+/* Group 111 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 733px;
+top: 2329px;
+
+/* Rectangle 148 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 733px;
+top: 2329px;
+
+background: #e45313;
+
+/* Mask group */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 733px;
+top: 2329px;
+
+/* Rectangle 143 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 733px;
+top: 2329px;
+
+background: #002f71;
+
+/* Group 103 */
+
+position: absolute;
+width: 708.73px;
+height: 559.38px;
+left: 709.14px;
+top: 2290.88px;
+
+/* Vector */
+
+position: absolute;
+left: 94.83%;
+right: 1.54%;
+top: 41.16%;
+bottom: 57.69%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 41.99%;
+bottom: 57.23%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 41.07%;
+bottom: 58.03%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 88.17%;
+right: 8.83%;
+top: 41.38%;
+bottom: 57.8%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 94.83%;
+right: 1.54%;
+top: 43.89%;
+bottom: 54.97%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 44.71%;
+bottom: 54.51%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 43.79%;
+bottom: 55.3%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 93.73%;
+right: 2.99%;
+top: 42.33%;
+bottom: 57.08%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 88.17%;
+right: 8.83%;
+top: 44.1%;
+bottom: 55.08%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 91.2%;
+right: 5.41%;
+top: 43.35%;
+bottom: 55.87%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 89.58%;
+right: 6.85%;
+top: 42.43%;
+bottom: 56.67%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 84.84%;
+right: 11.89%;
+top: 43.7%;
+bottom: 55.71%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 85.94%;
+right: 10.43%;
+top: 42.52%;
+bottom: 56.33%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 42.74%;
+bottom: 56.44%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 41.99%;
+bottom: 57.23%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 94.83%;
+right: 1.54%;
+top: 46.61%;
+bottom: 52.24%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 47.44%;
+bottom: 51.78%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 46.52%;
+bottom: 52.58%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 93.73%;
+right: 2.99%;
+top: 45.06%;
+bottom: 54.35%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 88.17%;
+right: 8.83%;
+top: 46.83%;
+bottom: 52.35%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 91.2%;
+right: 5.41%;
+top: 46.07%;
+bottom: 53.14%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 89.58%;
+right: 6.85%;
+top: 45.16%;
+bottom: 53.94%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 84.84%;
+right: 11.89%;
+top: 46.42%;
+bottom: 52.99%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 85.94%;
+right: 10.43%;
+top: 45.25%;
+bottom: 53.6%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 45.46%;
+bottom: 53.71%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 44.71%;
+bottom: 54.51%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 94.83%;
+right: 1.54%;
+top: 49.34%;
+bottom: 49.52%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 50.16%;
+bottom: 49.06%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 49.24%;
+bottom: 49.85%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 93.73%;
+right: 2.99%;
+top: 47.78%;
+bottom: 51.63%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 88.17%;
+right: 8.83%;
+top: 49.55%;
+bottom: 49.63%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 91.2%;
+right: 5.41%;
+top: 48.8%;
+bottom: 50.42%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 89.58%;
+right: 6.85%;
+top: 47.88%;
+bottom: 51.22%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 84.84%;
+right: 11.89%;
+top: 49.15%;
+bottom: 50.26%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 85.94%;
+right: 10.43%;
+top: 47.97%;
+bottom: 50.88%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 48.19%;
+bottom: 50.99%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 47.44%;
+bottom: 51.78%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 93.73%;
+right: 2.99%;
+top: 50.51%;
+bottom: 48.9%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 50.16%;
+bottom: 49.06%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 41.07%;
+bottom: 58.03%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 77.04%;
+right: 19.33%;
+top: 41.16%;
+bottom: 57.69%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 41.99%;
+bottom: 57.23%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 41.07%;
+bottom: 58.03%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 70.37%;
+right: 26.63%;
+top: 41.38%;
+bottom: 57.8%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 43.79%;
+bottom: 55.3%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 77.04%;
+right: 19.33%;
+top: 43.89%;
+bottom: 54.97%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 44.71%;
+bottom: 54.51%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 43.79%;
+bottom: 55.3%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 42.74%;
+bottom: 56.44%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 75.94%;
+right: 20.79%;
+top: 42.33%;
+bottom: 57.08%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 70.37%;
+right: 26.63%;
+top: 44.1%;
+bottom: 55.08%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 73.4%;
+right: 23.2%;
+top: 43.35%;
+bottom: 55.87%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 71.79%;
+right: 24.64%;
+top: 42.43%;
+bottom: 56.67%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 67.04%;
+right: 29.68%;
+top: 43.7%;
+bottom: 55.71%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 68.14%;
+right: 28.23%;
+top: 42.52%;
+bottom: 56.33%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 42.74%;
+bottom: 56.44%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 41.99%;
+bottom: 57.23%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 46.52%;
+bottom: 52.58%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 77.04%;
+right: 19.33%;
+top: 46.61%;
+bottom: 52.24%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 47.44%;
+bottom: 51.78%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 46.52%;
+bottom: 52.58%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 45.46%;
+bottom: 53.71%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 75.94%;
+right: 20.79%;
+top: 45.06%;
+bottom: 54.35%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 70.37%;
+right: 26.63%;
+top: 46.83%;
+bottom: 52.35%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 73.4%;
+right: 23.2%;
+top: 46.07%;
+bottom: 53.14%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 71.79%;
+right: 24.64%;
+top: 45.16%;
+bottom: 53.94%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 67.04%;
+right: 29.68%;
+top: 46.42%;
+bottom: 52.99%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 68.14%;
+right: 28.23%;
+top: 45.25%;
+bottom: 53.6%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 45.46%;
+bottom: 53.71%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 44.71%;
+bottom: 54.51%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 49.24%;
+bottom: 49.85%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 77.04%;
+right: 19.33%;
+top: 49.34%;
+bottom: 49.52%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 50.16%;
+bottom: 49.06%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 49.24%;
+bottom: 49.85%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 48.19%;
+bottom: 50.99%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 75.94%;
+right: 20.79%;
+top: 47.78%;
+bottom: 51.63%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 70.37%;
+right: 26.63%;
+top: 49.55%;
+bottom: 49.63%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 73.4%;
+right: 23.2%;
+top: 48.8%;
+bottom: 50.42%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 71.79%;
+right: 24.64%;
+top: 47.88%;
+bottom: 51.22%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 67.04%;
+right: 29.68%;
+top: 49.15%;
+bottom: 50.26%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 68.14%;
+right: 28.23%;
+top: 47.97%;
+bottom: 50.88%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 48.19%;
+bottom: 50.99%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 47.44%;
+bottom: 51.78%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 75.94%;
+right: 20.79%;
+top: 50.51%;
+bottom: 48.9%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 50.16%;
+bottom: 49.06%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 41.07%;
+bottom: 58.03%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 59.24%;
+right: 37.13%;
+top: 41.16%;
+bottom: 57.69%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 52.58%;
+right: 44.42%;
+top: 41.38%;
+bottom: 57.8%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 43.79%;
+bottom: 55.3%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 59.24%;
+right: 37.13%;
+top: 43.89%;
+bottom: 54.97%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 42.74%;
+bottom: 56.44%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 58.14%;
+right: 38.58%;
+top: 42.33%;
+bottom: 57.08%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 52.58%;
+right: 44.42%;
+top: 44.1%;
+bottom: 55.08%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 55.61%;
+right: 41%;
+top: 43.35%;
+bottom: 55.87%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 53.99%;
+right: 42.44%;
+top: 42.43%;
+bottom: 56.67%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 49.25%;
+right: 47.48%;
+top: 43.7%;
+bottom: 55.71%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 50.35%;
+right: 46.02%;
+top: 42.52%;
+bottom: 56.33%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 46.52%;
+bottom: 52.58%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 59.24%;
+right: 37.13%;
+top: 46.61%;
+bottom: 52.24%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 45.46%;
+bottom: 53.71%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 58.14%;
+right: 38.58%;
+top: 45.06%;
+bottom: 54.35%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 52.58%;
+right: 44.42%;
+top: 46.83%;
+bottom: 52.35%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 55.61%;
+right: 41%;
+top: 46.07%;
+bottom: 53.14%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 53.99%;
+right: 42.44%;
+top: 45.16%;
+bottom: 53.94%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 49.25%;
+right: 47.48%;
+top: 46.42%;
+bottom: 52.99%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 50.35%;
+right: 46.02%;
+top: 45.25%;
+bottom: 53.6%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 49.24%;
+bottom: 49.85%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 59.24%;
+right: 37.13%;
+top: 49.34%;
+bottom: 49.52%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 48.19%;
+bottom: 50.99%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 58.14%;
+right: 38.58%;
+top: 47.78%;
+bottom: 51.63%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 52.58%;
+right: 44.42%;
+top: 49.55%;
+bottom: 49.63%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 55.61%;
+right: 41%;
+top: 48.8%;
+bottom: 50.42%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 53.99%;
+right: 42.44%;
+top: 47.88%;
+bottom: 51.22%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 49.25%;
+right: 47.48%;
+top: 49.15%;
+bottom: 50.26%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 50.35%;
+right: 46.02%;
+top: 47.97%;
+bottom: 50.88%;
+
+background: #4f005e;
+
+/* Vector */
+
+position: absolute;
+left: 58.14%;
+right: 38.58%;
+top: 50.51%;
+bottom: 48.9%;
+
+background: #4f005e;
+
+/* Rectangle 147 */
+
+position: absolute;
+width: 308px;
+height: 53px;
+left: 758px;
+top: 2725px;
+
+background: #4f005e;
+
+/* Mask group */
+
+position: absolute;
+width: 308px;
+height: 376px;
+left: 758px;
+top: 2349px;
+
+/* Rectangle 89 */
+
+position: absolute;
+width: 308px;
+height: 376px;
+left: 758px;
+top: 2349px;
+
+background: #d9d9d9;
+
+/* 50395360397_f3d051c26d_o 2 */
+
+position: absolute;
+width: 1041.93px;
+height: 543.31px;
+left: 390.47px;
+top: 2263.52px;
+
+background: url(50395360397_f3d051c26d_o.jpg);
+
+/* Amazonía Emprende */
+
+position: absolute;
+width: 227px;
+height: 27px;
+left: 828px;
+top: 2738px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+
+color: #ffffff;
+
+/* Mask group */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 758px;
+top: 2725px;
+
+/* Rectangle 92 */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 758px;
+top: 2725px;
+
+background: #d9d9d9;
+
+/* Group 79 */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 758px;
+top: 2725px;
+
+/* Rectangle 37 */
+
+position: absolute;
+width: 53px;
+height: 27.02px;
+left: 758px;
+top: 2725px;
+
+background: #fdca00;
+
+/* Rectangle 38 */
+
+position: absolute;
+width: 53px;
+height: 12.47px;
+left: 758px;
+top: 2752.02px;
+
+background: #002f71;
+
+/* Rectangle 39 */
+
+position: absolute;
+width: 53px;
+height: 13.51px;
+left: 758px;
+top: 2764.49px;
+
+background: #ce242b;
+
+/* Group 122 */
+
+position: absolute;
+width: 662px;
+height: 469px;
+left: 733px;
+top: 2816px;
+
+/* Group 110 */
+
+position: absolute;
+width: 315px;
+height: 469px;
+left: 1080px;
+top: 2816px;
+
+/* Rectangle 149 */
+
+position: absolute;
+width: 315px;
+height: 469px;
+left: 1080px;
+top: 2816px;
+
+background: #002f71;
+border-radius: 0px 5px 5px 0px;
+
+/* Andres Felipe González Espinosa */
+
+position: absolute;
+width: 277px;
+height: 114px;
+left: 1104px;
+top: 2836px;
+
+font-family: "Piepie";
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #ffffff;
+
+/* Heather Terry believes food can be a force for regeneration. As founder and CEO of GoodSAM Foods, she partners with smallholder farmers and Indigenous communities across eight countries, proving that regenerative agriculture and fair models can scale impact while strengthening climate resilience and dignity. */
+
+position: absolute;
+width: 272px;
+height: 180px;
+left: 1104px;
+top: 3032px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #ffffff;
+
+/* Co-founder & CEO of Omia Agribusiness Development Group. */
+
+position: absolute;
+width: 276px;
+height: 36px;
+left: 1104px;
+top: 2960px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 18px;
+
+color: #ffffff;
+
+/* Learn more */
+
+position: absolute;
+width: 276px;
+height: 22px;
+left: 1104px;
+top: 3243px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #ffffff;
+
+/* Group 111 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 733px;
+top: 2816px;
+
+/* Rectangle 148 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 733px;
+top: 2816px;
+
+background: #ce242b;
+border-radius: 5px;
+
+/* Mask group */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 733px;
+top: 2816px;
+
+/* Rectangle 143 */
+
+position: absolute;
+width: 351px;
+height: 469px;
+left: 733px;
+top: 2816px;
+
+background: #002f71;
+border-radius: 5px;
+
+/* Group 103 */
+
+position: absolute;
+width: 708.73px;
+height: 559.38px;
+left: 709.14px;
+top: 2777.88px;
+
+/* Vector */
+
+position: absolute;
+left: 94.83%;
+right: 1.54%;
+top: 49.89%;
+bottom: 48.96%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 50.72%;
+bottom: 48.5%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 49.8%;
+bottom: 49.3%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 88.17%;
+right: 8.83%;
+top: 50.11%;
+bottom: 49.07%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 94.83%;
+right: 1.54%;
+top: 52.62%;
+bottom: 46.23%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 53.44%;
+bottom: 45.78%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 52.53%;
+bottom: 46.57%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 93.73%;
+right: 2.99%;
+top: 51.06%;
+bottom: 48.35%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 88.17%;
+right: 8.83%;
+top: 52.83%;
+bottom: 46.35%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 91.2%;
+right: 5.41%;
+top: 52.08%;
+bottom: 47.14%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 89.58%;
+right: 6.85%;
+top: 51.16%;
+bottom: 47.93%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 84.84%;
+right: 11.89%;
+top: 52.43%;
+bottom: 46.98%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 85.94%;
+right: 10.43%;
+top: 51.25%;
+bottom: 47.6%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 51.47%;
+bottom: 47.71%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 50.72%;
+bottom: 48.5%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 94.83%;
+right: 1.54%;
+top: 55.34%;
+bottom: 43.51%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 56.17%;
+bottom: 43.05%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 55.25%;
+bottom: 43.85%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 93.73%;
+right: 2.99%;
+top: 53.79%;
+bottom: 45.62%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 88.17%;
+right: 8.83%;
+top: 55.56%;
+bottom: 43.62%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 91.2%;
+right: 5.41%;
+top: 54.8%;
+bottom: 44.41%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 89.58%;
+right: 6.85%;
+top: 53.89%;
+bottom: 45.21%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 84.84%;
+right: 11.89%;
+top: 55.15%;
+bottom: 44.26%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 85.94%;
+right: 10.43%;
+top: 53.98%;
+bottom: 44.87%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 54.19%;
+bottom: 44.98%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 53.44%;
+bottom: 45.78%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 94.83%;
+right: 1.54%;
+top: 58.07%;
+bottom: 40.78%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 58.89%;
+bottom: 40.33%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 57.98%;
+bottom: 41.12%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 93.73%;
+right: 2.99%;
+top: 56.51%;
+bottom: 42.9%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 88.17%;
+right: 8.83%;
+top: 58.28%;
+bottom: 40.9%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 91.2%;
+right: 5.41%;
+top: 57.53%;
+bottom: 41.69%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 89.58%;
+right: 6.85%;
+top: 56.61%;
+bottom: 42.48%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 84.84%;
+right: 11.89%;
+top: 57.88%;
+bottom: 41.53%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 85.94%;
+right: 10.43%;
+top: 56.7%;
+bottom: 42.15%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 56.92%;
+bottom: 42.26%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 56.17%;
+bottom: 43.05%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 93.73%;
+right: 2.99%;
+top: 59.24%;
+bottom: 40.17%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 82.3%;
+right: 14.3%;
+top: 58.89%;
+bottom: 40.33%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 49.8%;
+bottom: 49.3%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 77.04%;
+right: 19.33%;
+top: 49.89%;
+bottom: 48.96%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 50.72%;
+bottom: 48.5%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 49.8%;
+bottom: 49.3%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 70.37%;
+right: 26.63%;
+top: 50.11%;
+bottom: 49.07%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 52.53%;
+bottom: 46.57%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 77.04%;
+right: 19.33%;
+top: 52.62%;
+bottom: 46.23%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 53.44%;
+bottom: 45.78%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 52.53%;
+bottom: 46.57%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 51.47%;
+bottom: 47.71%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 75.94%;
+right: 20.79%;
+top: 51.06%;
+bottom: 48.35%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 70.37%;
+right: 26.63%;
+top: 52.83%;
+bottom: 46.35%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 73.4%;
+right: 23.2%;
+top: 52.08%;
+bottom: 47.14%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 71.79%;
+right: 24.64%;
+top: 51.16%;
+bottom: 47.93%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 67.04%;
+right: 29.68%;
+top: 52.43%;
+bottom: 46.98%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 68.14%;
+right: 28.23%;
+top: 51.25%;
+bottom: 47.6%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 51.47%;
+bottom: 47.71%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 50.72%;
+bottom: 48.5%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 55.25%;
+bottom: 43.85%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 77.04%;
+right: 19.33%;
+top: 55.34%;
+bottom: 43.51%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 56.17%;
+bottom: 43.05%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 55.25%;
+bottom: 43.85%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 54.19%;
+bottom: 44.98%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 75.94%;
+right: 20.79%;
+top: 53.79%;
+bottom: 45.62%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 70.37%;
+right: 26.63%;
+top: 55.56%;
+bottom: 43.62%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 73.4%;
+right: 23.2%;
+top: 54.8%;
+bottom: 44.41%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 71.79%;
+right: 24.64%;
+top: 53.89%;
+bottom: 45.21%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 67.04%;
+right: 29.68%;
+top: 55.15%;
+bottom: 44.26%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 68.14%;
+right: 28.23%;
+top: 53.98%;
+bottom: 44.87%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 54.19%;
+bottom: 44.98%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 53.44%;
+bottom: 45.78%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 80.69%;
+right: 15.74%;
+top: 57.98%;
+bottom: 41.12%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 77.04%;
+right: 19.33%;
+top: 58.07%;
+bottom: 40.78%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 58.89%;
+bottom: 40.33%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 57.98%;
+bottom: 41.12%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 79.27%;
+right: 17.73%;
+top: 56.92%;
+bottom: 42.26%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 75.94%;
+right: 20.79%;
+top: 56.51%;
+bottom: 42.9%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 70.37%;
+right: 26.63%;
+top: 58.28%;
+bottom: 40.9%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 73.4%;
+right: 23.2%;
+top: 57.53%;
+bottom: 41.69%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 71.79%;
+right: 24.64%;
+top: 56.61%;
+bottom: 42.48%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 67.04%;
+right: 29.68%;
+top: 57.88%;
+bottom: 41.53%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 68.14%;
+right: 28.23%;
+top: 56.7%;
+bottom: 42.15%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 56.92%;
+bottom: 42.26%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 56.17%;
+bottom: 43.05%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 75.94%;
+right: 20.79%;
+top: 59.24%;
+bottom: 40.17%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 64.51%;
+right: 32.1%;
+top: 58.89%;
+bottom: 40.33%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 49.8%;
+bottom: 49.3%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 59.24%;
+right: 37.13%;
+top: 49.89%;
+bottom: 48.96%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 52.58%;
+right: 44.42%;
+top: 50.11%;
+bottom: 49.07%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 52.53%;
+bottom: 46.57%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 59.24%;
+right: 37.13%;
+top: 52.62%;
+bottom: 46.23%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 51.47%;
+bottom: 47.71%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 58.14%;
+right: 38.58%;
+top: 51.06%;
+bottom: 48.35%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 52.58%;
+right: 44.42%;
+top: 52.83%;
+bottom: 46.35%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 55.61%;
+right: 41%;
+top: 52.08%;
+bottom: 47.14%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 53.99%;
+right: 42.44%;
+top: 51.16%;
+bottom: 47.93%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 49.25%;
+right: 47.48%;
+top: 52.43%;
+bottom: 46.98%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 50.35%;
+right: 46.02%;
+top: 51.25%;
+bottom: 47.6%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 55.25%;
+bottom: 43.85%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 59.24%;
+right: 37.13%;
+top: 55.34%;
+bottom: 43.51%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 54.19%;
+bottom: 44.98%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 58.14%;
+right: 38.58%;
+top: 53.79%;
+bottom: 45.62%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 52.58%;
+right: 44.42%;
+top: 55.56%;
+bottom: 43.62%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 55.61%;
+right: 41%;
+top: 54.8%;
+bottom: 44.41%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 53.99%;
+right: 42.44%;
+top: 53.89%;
+bottom: 45.21%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 49.25%;
+right: 47.48%;
+top: 55.15%;
+bottom: 44.26%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 50.35%;
+right: 46.02%;
+top: 53.98%;
+bottom: 44.87%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 62.89%;
+right: 33.54%;
+top: 57.98%;
+bottom: 41.12%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 59.24%;
+right: 37.13%;
+top: 58.07%;
+bottom: 40.78%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 61.48%;
+right: 35.53%;
+top: 56.92%;
+bottom: 42.26%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 58.14%;
+right: 38.58%;
+top: 56.51%;
+bottom: 42.9%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 52.58%;
+right: 44.42%;
+top: 58.28%;
+bottom: 40.9%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 55.61%;
+right: 41%;
+top: 57.53%;
+bottom: 41.69%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 53.99%;
+right: 42.44%;
+top: 56.61%;
+bottom: 42.48%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 49.25%;
+right: 47.48%;
+top: 57.88%;
+bottom: 41.53%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 50.35%;
+right: 46.02%;
+top: 56.7%;
+bottom: 42.15%;
+
+background: #002f71;
+
+/* Vector */
+
+position: absolute;
+left: 58.14%;
+right: 38.58%;
+top: 59.24%;
+bottom: 40.17%;
+
+background: #002f71;
+
+/* Rectangle 147 */
+
+position: absolute;
+width: 308px;
+height: 53px;
+left: 758px;
+top: 3212px;
+
+background: #002f71;
+
+/* Mask group */
+
+position: absolute;
+width: 308px;
+height: 376px;
+left: 758px;
+top: 2836px;
+
+/* Rectangle 89 */
+
+position: absolute;
+width: 308px;
+height: 376px;
+left: 758px;
+top: 2836px;
+
+background: #d9d9d9;
+border-radius: 0px 110px 0px 0px;
+
+/* 50395360397_f3d051c26d_o 2 */
+
+position: absolute;
+width: 1041.93px;
+height: 543.31px;
+left: 390.47px;
+top: 2750.52px;
+
+background: url(50395360397_f3d051c26d_o.jpg);
+border-radius: 0px 110px 0px 0px;
+
+/* Amazonía Emprende */
+
+position: absolute;
+width: 227px;
+height: 27px;
+left: 828px;
+top: 3225px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+
+color: #ffffff;
+
+/* Mask group */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 71px;
+top: 3212px;
+
+/* Rectangle 92 */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 71px;
+top: 3212px;
+
+background: #d9d9d9;
+
+/* image 1 */
+
+position: absolute;
+width: 79px;
+height: 53px;
+left: 58px;
+top: 3212px;
+
+background: url(image.png);
+
+/* Mask group */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 758px;
+top: 3212px;
+
+/* Rectangle 92 */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 758px;
+top: 3212px;
+
+background: #d9d9d9;
+
+/* image 2 */
+
+position: absolute;
+width: 79px;
+height: 53px;
+left: 745px;
+top: 3212px;
+
+background: url(image.png);
+
+/* Rectangle 95 */
+
+position: absolute;
+width: 101px;
+height: 42px;
+left: 1279px;
+top: 4208px;
+
+background: #002f71;
+border-radius: 21px;
+
+/* Donate */
+
+position: absolute;
+width: 68px;
+height: 22px;
+left: 1296px;
+top: 4218px;
+
+font-family: "Gellix";
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 22px;
+
+color: #ffffff;

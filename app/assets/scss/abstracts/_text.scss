@@ -31,7 +31,7 @@ $font-metrics: (
     lineGap: 0,
     unitsPerEm: 1000,
   ),
-  "bigShoulder": (
+  "piepie": (
     capHeight: 1600,
     ascent: 1968,
     descent: -426,
@@ -92,98 +92,101 @@ $font-metrics: (
 }
 
 $text-settings-array: (
+  "caption": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-caption),
+    "line-height": line-height($text-lh-caption, $text-size-caption),
+    "font-size-md": px-to-rem($text-size-caption),
+    "line-height-md": line-height($text-lh-caption, $text-size-caption),
+    "font-size-lg": px-to-rem($text-size-caption),
+    "line-height-lg": line-height($text-lh-caption, $text-size-caption),
+  ),
+  "label": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-label),
+    "line-height": line-height($text-lh-label, $text-size-label),
+    "font-size-md": px-to-rem($text-size-label),
+    "line-height-md": line-height($text-lh-label, $text-size-label),
+    "font-size-lg": px-to-rem($text-size-label),
+    "line-height-lg": line-height($text-lh-label, $text-size-label),
+  ),
+  "body-sm": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-body-sm),
+    "line-height": line-height($text-lh-body-sm, $text-size-body-sm),
+    "font-size-md": px-to-rem($text-size-body-sm),
+    "line-height-md": line-height($text-lh-body-sm, $text-size-body-sm),
+    "font-size-lg": px-to-rem($text-size-body-sm),
+    "line-height-lg": line-height($text-lh-body-sm, $text-size-body-sm),
+  ),
   "body": (
     "font-name": "gellix",
-    "font-size": px-to-rem($base-font-size),
-    "line-height": line-height($base-line-height, $base-font-size),
-    "font-size-md": px-to-rem($base-font-size-md),
-    "line-height-md": line-height($base-line-height-md, $base-font-size-md),
-    "font-size-lg": px-to-rem($base-font-size-lg),
-    "line-height-lg": line-height($base-line-height-lg, $base-font-size-lg),
+    "font-size": px-to-rem($text-size-body),
+    "line-height": line-height($text-lh-body, $text-size-body),
+    "font-size-md": px-to-rem($text-size-body),
+    "line-height-md": line-height($text-lh-body, $text-size-body),
+    "font-size-lg": px-to-rem($text-size-body),
+    "line-height-lg": line-height($text-lh-body, $text-size-body),
   ),
-  "bodyBig": (
+  "subheading": (
     "font-name": "gellix",
-    "font-size": px-to-rem($text-size-bodyBig),
-    "line-height": line-height($text-size-bodyBig-lh, $text-size-bodyBig),
-    "font-size-md": px-to-rem($text-size-bodyBig-md),
+    "font-size": px-to-rem($text-size-subheading),
+    "line-height": line-height($text-lh-subheading, $text-size-subheading),
+    "font-size-md": px-to-rem($text-size-subheading),
+    "line-height-md": line-height($text-lh-subheading, $text-size-subheading),
+    "font-size-lg": px-to-rem($text-size-subheading),
+    "line-height-lg": line-height($text-lh-subheading, $text-size-subheading),
+  ),
+  "heading-sm-tight": (
+    "font-name": "gellix",
+    "font-size": px-to-rem($text-size-heading-sm),
+    "line-height": line-height($text-lh-heading-sm-tight, $text-size-heading-sm),
+    "font-size-md": px-to-rem($text-size-heading-sm),
     "line-height-md": line-height(
-        $text-size-bodyBig-md-lh,
-        $text-size-bodyBig-md
+        $text-lh-heading-sm-tight,
+        $text-size-heading-sm
       ),
-    "font-size-lg": px-to-rem($text-size-bodyBig-lg),
+    "font-size-lg": px-to-rem($text-size-heading-sm),
     "line-height-lg": line-height(
-        $text-size-bodyBig-lg-lh,
-        $text-size-bodyBig-lg
+        $text-lh-heading-sm-tight,
+        $text-size-heading-sm
       ),
   ),
-  "xLarge": (
+  "heading-sm": (
     "font-name": "gellix",
-    "font-size": px-to-rem($text-size-xLarge),
-    "line-height": line-height($text-size-xLarge-lh, $text-size-xLarge),
-    "font-size-md": px-to-rem($text-size-xLarge-md),
-    "line-height-md": line-height($text-size-xLarge-md-lh, $text-size-xLarge-md),
-    "font-size-lg": px-to-rem($text-size-xLarge-lg),
-    "line-height-lg": line-height($text-size-xLarge-lg-lh, $text-size-xLarge-lg),
+    "font-size": px-to-rem($text-size-heading-sm),
+    "line-height": line-height($text-lh-heading-sm, $text-size-heading-sm),
+    "font-size-md": px-to-rem($text-size-heading-sm),
+    "line-height-md": line-height($text-lh-heading-sm, $text-size-heading-sm),
+    "font-size-lg": px-to-rem($text-size-heading-sm),
+    "line-height-lg": line-height($text-lh-heading-sm, $text-size-heading-sm),
   ),
-  "large": (
+  "heading-md": (
     "font-name": "gellix",
-    "font-size": px-to-rem($text-size-large),
-    "line-height": line-height($text-size-large-lh, $text-size-large),
+    "font-size": px-to-rem($text-size-heading-md),
+    "line-height": line-height($text-lh-heading-md, $text-size-heading-md),
+    "font-size-md": px-to-rem($text-size-heading-md),
+    "line-height-md": line-height($text-lh-heading-md, $text-size-heading-md),
+    "font-size-lg": px-to-rem($text-size-heading-md),
+    "line-height-lg": line-height($text-lh-heading-md, $text-size-heading-md),
   ),
-  "medium": (
+  "heading-xl": (
     "font-name": "gellix",
-    "font-size": px-to-rem($text-size-medium),
-    "line-height": line-height($text-size-medium-lh, $text-size-medium),
+    "font-size": px-to-rem($text-size-heading-xl),
+    "line-height": line-height($text-lh-heading-xl, $text-size-heading-xl),
+    "font-size-md": px-to-rem($text-size-heading-xl),
+    "line-height-md": line-height($text-lh-heading-xl, $text-size-heading-xl),
+    "font-size-lg": px-to-rem($text-size-heading-xl),
+    "line-height-lg": line-height($text-lh-heading-xl, $text-size-heading-xl),
   ),
-  "small": (
-    "font-name": "gellix",
-    "font-size": px-to-rem($text-size-small),
-    "line-height": line-height($text-size-small-lh, $text-size-small),
-  ),
-
-  "xSmall": (
-    "font-name": "gellix",
-    "font-size": px-to-rem($text-size-xSmall),
-    "line-height": line-height($text-size-xSmall-lh, $text-size-xSmall),
-  ),
-
-  "footerBig": (
-    "font-name": "gellix",
-    "font-size": px-to-rem($text-size-footerBig),
-    "line-height": line-height($text-size-footerBig-lh, $text-size-footerBig),
-    "font-size-md": px-to-rem($text-size-footerBig-md),
-    "line-height-md": line-height(
-        $text-size-footerBig-md-lh,
-        $text-size-footerBig-md
-      ),
-    "font-size-lg": px-to-rem($text-size-footerBig-lg),
-    "line-height-lg": line-height(
-        $text-size-footerBig-lg-lh,
-        $text-size-footerBig-lg
-      ),
-  ),
-  "asideFooter": (
-    "font-name": "gellix",
-    "font-size": px-to-rem($text-size-asideFooter),
-    "line-height": line-height(
-        $text-size-asideFooter-lh,
-        $text-size-asideFooter
-      ),
-  ),
-  "bigShoulder": (
-    "font-name": "bigShoulder",
-    "font-size": px-to-rem($text-size-bigShoulder),
-    "line-height": 1.2,
-  ),
-
-  "bigShoulder-giga": (
-    "font-name": "bigShoulder",
-    "font-size": px-to-rem($text-size-bigShoulder-giga),
-    "line-height": 1.2,
-    "font-size-md": px-to-rem($text-size-bigShoulder-giga-md),
-    "line-height-md": 1.2,
-    "font-size-lg": px-to-rem($text-size-bigShoulder-giga-lg),
-    "line-height-lg": 1.2,
+  "display-lg": (
+    "font-name": "piepie",
+    "font-size": px-to-rem($text-size-display-lg),
+    "line-height": line-height($text-lh-display-lg, $text-size-display-lg),
+    "font-size-md": px-to-rem($text-size-display-lg),
+    "line-height-md": line-height($text-lh-display-lg, $text-size-display-lg),
+    "font-size-lg": px-to-rem($text-size-display-lg),
+    "line-height-lg": line-height($text-lh-display-lg, $text-size-display-lg),
   ),
 );
 
@@ -231,19 +234,11 @@ $text-settings-array: (
     text-decoration: underline;
   }
 
-  &.text-bigShoulder,
-  &.text-bigShoulder-giga {
+  &.text-display,
+  &.text-display-giga {
     font-weight: 700;
     font-style: normal;
     font-family: $base-font-family-display;
-  }
-
-  &.text-download {
-    font-size: px-to-rem(16px);
-
-    @include md-up {
-      font-size: px-to-rem(18px);
-    }
   }
 }
 

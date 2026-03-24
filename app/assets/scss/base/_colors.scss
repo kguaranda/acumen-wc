@@ -1,69 +1,47 @@
 @use "../abstracts/_variables" as *;
+@use "sass:map";
 @use "./_mediaQueries" as *;
 @use "../abstracts/_mixins" as *;
 
-.bg-purple {
-  background-color: $color-purple;
-}
-.bg-magenta {
-  background-color: $color-magenta;
-}
+$color-utilities: (
+  "black-base": $color-black-base,
+  "white-base": $color-white-base,
+  "blue-primary": $color-blue-primary,
+  "cyan": $color-cyan,
+  "green-dark": $color-green-dark,
+  "green": $color-green,
+  "green-alt": $color-green-alt,
+  "blue-accent": $color-blue-accent,
+  "indigo": $color-indigo,
+  "purple-dark": $color-purple-dark,
+  "mint": $color-mint,
+  "red-dark": $color-red-dark,
+  "grey": $color-grey,
+  "orange": $color-orange,
+  "magenta-base": $color-magenta-base,
+  "grey-light": $color-grey-light,
+  "yellow-base": $color-yellow-base,
+  "red": $color-red,
+  "red-bright": $color-red-bright,
+  "white": $color-white,
+  "black": $color-black,
+  "white-tint-light": $color-white-tint-light,
+  "white-tint-medium": $color-white-tint-medium,
+  "white-tint-focus": $color-white-tint-focus,
+  "blue": $color-blue,
+  "yellow": $color-yellow,
+  "light-grey": $color-light-grey,
+  "magenta": $color-magenta,
+);
 
-.bg-light-grey {
-  background-color: $color-light-grey;
-}
-
-.bg-dark-blue {
-  background-color: $color-dark-blue;
-}
-
-.bg-dark-green {
-  background-color: $color-dark-green;
-}
-.bg-dark-red {
-  background-color: $color-dark-red;
-}
-
-.bg-cream {
-  background-color: $color-cream;
-}
-
-.bg-green {
-  background-color: $color-green;
-}
-
-.color-current {
-  color: currentColor;
-}
-
-.color-white {
-  color: $color-white;
-}
-
-.color-blue {
-  color: blue;
-}
-
-.color-green {
-  color: green;
-}
-
-.color-summary {
-  color: $color-green;
-
-  @include lg-up {
-    color: currentColor;
+@each $name, $value in $color-utilities {
+  .color-#{$name} {
+    color: $value;
   }
 }
 
 .color-nav {
-  color: $color-dark-green;
-
   @include lg-up {
     color: currentColor;
   }
-}
-
-.color-red {
-  color: red;
 }
