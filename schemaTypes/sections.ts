@@ -19,6 +19,7 @@ export const championItemSchema = z.object({
   focusLabel: z.string().optional(),
   name: z.string(),
   image: z.string().optional(),
+  flag: z.string().optional(),
   bg: z.string(),
   imageBg: z.string(),
   role: z.string().optional(),

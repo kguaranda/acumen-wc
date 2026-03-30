@@ -32,11 +32,11 @@ $font-metrics: (
     unitsPerEm: 1000,
   ),
   "piepie": (
-    capHeight: 1600,
-    ascent: 1968,
-    descent: -426,
+    capHeight: 700,
+    ascent: 1079,
+    descent: -183,
     lineGap: 0,
-    unitsPerEm: 2000,
+    unitsPerEm: 1000,
   ),
 );
 @mixin capsize-trim($font-name, $font-size, $line-height: null) {
@@ -225,6 +225,10 @@ $text-settings-array: (
 
   &.text-bold {
     font-family: $base-font-family-bold;
+  }
+
+  &.text-center {
+    text-align: center;
   }
   &.text-black {
     font-family: $base-font-family-black;

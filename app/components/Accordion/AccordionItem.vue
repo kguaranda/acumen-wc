@@ -9,6 +9,7 @@
   } from "vue";
 
   const props = defineProps<{
+    id: string;
     title: string;
     amount: number | string | null;
     tierBg: string;
@@ -16,15 +17,14 @@
     copy: string;
     ctaText: string;
     icon: string;
-    index: number;
-    openIndex: number;
+    openId: string | null;
   }>();
 
   const emit = defineEmits<{
-    (e: "toggle", value: number): void;
+    (e: "toggle", value: string): void;
   }>();
 
-  const isOpen = computed(() => props.openIndex === props.index);
+  const isOpen = computed(() => props.openId === props.id);
   const bodyContentRef = ref<HTMLElement | null>(null);
   const bodyMaxHeight = ref("0px");
 
@@ -40,7 +40,7 @@
   };
 
   const toggleOpen = async () => {
-    emit("toggle", props.index);
+    emit("toggle", props.id);
     await nextTick();
     updateBodyHeight();
   };
@@ -65,11 +65,11 @@
   });
 
   watch(
-    () => [props.copy, props.openIndex],
+    () => [props.copy, props.openId],
     async () => {
       await nextTick();
       updateBodyHeight();
-    }
+    },
   );
 </script>
 
@@ -116,7 +116,7 @@
           width="90"
           height="90"
         />
-        <p class="accordion-item__copy text text-body-md text-bold">
+        <p class="accordion-item__copy text text-body text-bold">
           {{ copy }}
         </p>
         <button

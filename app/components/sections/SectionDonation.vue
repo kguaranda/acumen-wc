@@ -1,10 +1,17 @@
 <script setup lang="ts">
   import type { SectionItem } from "../../../schemaTypes/sections";
   import DonationIllustration from "../illustrations/DonationIllustration.vue";
+  import { ref } from "vue";
 
   defineProps<{
     section: SectionItem;
   }>();
+
+  const openId = ref<string | null>(null);
+
+  function onIllustrationClick(option: { id: string }) {
+    openId.value = option.id;
+  }
 </script>
 
 <template>
@@ -21,10 +28,10 @@
 
     <div class="section-donation__illustration grid-6 gap-giga container">
       <div class="span-6 lg:span-4">
-        <DonationIllustration />
+        <DonationIllustration @click="onIllustrationClick" />
       </div>
       <div class="span-6 lg:span-2">
-        <Accordion :items="section.props.tiers" />
+        <Accordion v-model:open-id="openId" :items="section.props.tiers" />
       </div>
     </div>
   </div>

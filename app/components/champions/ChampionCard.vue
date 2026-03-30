@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import { computed } from "vue";
   import type { ChampionItem } from "../../../schemaTypes/sections";
 
   const props = defineProps<{
@@ -28,14 +29,32 @@
         backgroundImage: `url(${frameUrl})`,
       }"
     >
-      <img
-        v-if="item.image"
-        class="champion-card__media__image"
-        :src="item.image"
-        :alt="item.name"
-        loading="lazy"
-        decoding="async"
-      />
+      <figure>
+        <img
+          v-if="item.image"
+          class="champion-card__media__image"
+          :src="item.image"
+          :alt="item.name"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption
+          v-if="item.image"
+          class="flex row items-center gap-md"
+          :class="item.bg ? `bg-${item.bg}` : ''"
+        >
+          <img
+            v-if="item.flag"
+            :src="item.flag"
+            :alt="`${item.country ?? 'Country'} flag`"
+            loading="lazy"
+            decoding="async"
+          />
+          <span class="champion-card__meta__label text text-body text-black">
+            {{ item.company }}
+          </span>
+        </figcaption>
+      </figure>
     </div>
 
     <div
@@ -80,24 +99,39 @@
 
     &__media {
       width: 100%;
+      height: auto;
       overflow: hidden;
-      aspect-ratio: 351 / 469;
+      // aspect-ratio: 351 / 469;
       padding: 20px 25px; /* indent/inset for the image */
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       border-radius: 5px;
 
+      figure {
+        background: red;
+        height: auto;
+        width: 100%;
+      }
+      figcaption {
+        img {
+          height: 53px;
+          width: auto;
+        }
+      }
+
+      // .champion-card__meta {
+      //   display: inline-flex;
+      //   align-items: center;
+      //   gap: 10px;
+      // }
+
       &__image {
         width: 100%;
         height: 100%;
         object-fit: cover;
         display: block;
-        /*
-      Design file: 308x376 with top-right radius 110px.
-      110 / 308 ≈ 35.7% → use % so it scales with the rendered image size.
-      Keep other corners square as in the design.
-    */
+        aspect-ratio: 308 / 378;
         border-radius: 0 30% 0 0;
       }
     }

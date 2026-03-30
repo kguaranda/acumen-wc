@@ -2,6 +2,7 @@
   import { computed, ref, watch } from "vue";
 
   export interface AccordionEntry {
+    id?: string;
     title: string;
     amount: number | string | null;
     tierBg: string;
@@ -14,43 +15,64 @@
 
   const props = defineProps<{
     items: AccordionEntry[];
-    openIndex?: number;
+    openId?: string | null;
   }>();
 
   const emit = defineEmits<{
-    (e: "update:openIndex", value: number): void;
+    (e: "update:openId", value: string | null): void;
   }>();
 
-  const defaultOpenIndex = computed(() =>
-    props.items.findIndex((item) => item.isOpenDefault)
+  function toCamelCaseId(input: string): string {
+    const words = input
+      .trim()
+      .toLowerCase()
+      .replace(/['’]/g, "")
+      .split(/[^a-z0-9]+/g)
+      .filter(Boolean);
+
+    return words
+      .map((w, i) => (i === 0 ? w : w.charAt(0).toUpperCase() + w.slice(1)))
+      .join("");
+  }
+
+  const normalizedItems = computed(() =>
+    props.items.map((item) => ({
+      ...item,
+      id: item.id ?? toCamelCaseId(item.title),
+    }))
   );
-  const activeIndex = ref(
-    typeof props.openIndex === "number"
-      ? props.openIndex
-      : defaultOpenIndex.value
+
+  const defaultOpenId = computed(() => {
+    const defaultItem = normalizedItems.value.find((item) => item.isOpenDefault);
+    return defaultItem?.id ?? null;
+  });
+
+  const activeId = ref<string | null>(
+    typeof props.openId === "string" ? props.openId : defaultOpenId.value
   );
 
   watch(
-    () => props.openIndex,
-    (nextOpenIndex) => {
-      if (typeof nextOpenIndex === "number") {
-        activeIndex.value = nextOpenIndex;
+    () => props.openId,
+    (nextOpenId) => {
+      if (typeof nextOpenId === "string" || nextOpenId === null) {
+        activeId.value = nextOpenId;
       }
     }
   );
 
-  const onToggle = (index: number) => {
-    const nextOpenIndex = activeIndex.value === index ? -1 : index;
-    activeIndex.value = nextOpenIndex;
-    emit("update:openIndex", nextOpenIndex);
+  const onToggle = (id: string) => {
+    const nextOpenId = activeId.value === id ? null : id;
+    activeId.value = nextOpenId;
+    emit("update:openId", nextOpenId);
   };
 </script>
 
 <template>
   <div class="accordion flex column">
     <AccordionItem
-      v-for="(item, index) in items"
-      :key="`${index}`"
+      v-for="item in normalizedItems"
+      :id="item.id"
+      :key="item.id"
       :title="item.title"
       :amount="item.amount"
       :tier-bg="item.tierBg"
@@ -58,8 +80,7 @@
       :copy="item.copy"
       :cta-text="item.ctaText"
       :icon="item.icon"
-      :index="index"
-      :open-index="activeIndex"
+      :open-id="activeId"
       @toggle="onToggle"
     />
   </div>
