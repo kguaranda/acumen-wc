@@ -15,7 +15,7 @@
 </script>
 
 <template>
-  <div class="section-donation flex column gap-giga">
+  <div class="section-donation flex column gap-giga px-giga">
     <div class="container-md flex column gap-lg">
       <h2
         class="text text-display-lg text-display color-blue container-md text-align-center"
