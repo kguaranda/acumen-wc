@@ -8,6 +8,7 @@
 
 $color-map: (
   "white": $color-white,
+  "blue": $color-blue,
 );
 
 @each $name, $value in $color-map {

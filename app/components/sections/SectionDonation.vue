@@ -62,7 +62,10 @@
     <BackToDonation :open="hasScrolledPastDonation" @click="scrollToDonation" />
   </Teleport>
 
-  <div ref="sectionEl" class="section-donation flex column gap-giga px-giga">
+  <div
+    ref="sectionEl"
+    class="section section-donation flex column gap-giga px-giga"
+  >
     <div class="container-md flex column gap-lg">
       <h2
         class="text text-display-lg text-display color-blue container-md text-align-center"

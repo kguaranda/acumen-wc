@@ -16,7 +16,7 @@
         <img src="/_include/images/logo-bar.svg" alt="Back to donation" />
       </div>
       <button
-        class="back__button bg-blue color-white text text-heading-sm text-black flex items-center justify-center px-md py-md"
+        class="back__button bg-blue color-white text text-heading-sm text-black flex items-center justify-center px-md py-md border-2 border-blue hover:bg-white hover:color-blue transition-all duration-default"
         type="button"
         @click="$emit('click')"
       >

@@ -37,7 +37,7 @@
         const key = `${section.id}:${resolvedType}`;
         if (!warned.has(key)) {
           console.warn(
-            `[Sections] No component registered for section.type="${resolvedType}" (id="${section.id}")`,
+            `[Sections] No component registered for section.type="${resolvedType}" (id="${section.id}")`
           );
           warned.add(key);
         }
@@ -55,7 +55,7 @@
       })
       .filter(
         (item): item is { section: SectionItem; component: SectionComponent } =>
-          item !== null,
+          item !== null
       );
   });
 </script>
@@ -70,3 +70,5 @@
     />
   </div>
 </template>
+
+<style lang="scss"></style>

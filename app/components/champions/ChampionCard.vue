@@ -119,12 +119,6 @@
         }
       }
 
-      // .champion-card__meta {
-      //   display: inline-flex;
-      //   align-items: center;
-      //   gap: 10px;
-      // }
-
       &__image {
         width: 100%;
         height: 100%;
