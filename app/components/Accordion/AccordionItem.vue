@@ -119,7 +119,7 @@
           {{ copy }}
         </p>
         <button
-          class="accordion-item__button bg-white color-black text text-heading-sm text-black"
+          class="accordion-item__button bg-white color-black text text-heading-sm text-black hover:bg-blue hover:color-white"
           type="button"
         >
           {{ ctaText }}

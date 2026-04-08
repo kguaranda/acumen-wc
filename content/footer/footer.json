@@ -1,0 +1,68 @@
+{
+  "title": "Stand with the Champions.",
+  "description": "Join a growing community supporting climate resilience. Get stories, insights, and opportunities to stay involved. Love the World Game, love the world more.",
+  "fields": [
+    {
+      "name": "firstname",
+      "type": "text",
+      "placeholder": "First name",
+      "required": true
+    },
+    {
+      "name": "lastname",
+      "type": "text",
+      "placeholder": "Last name",
+      "required": true
+    },
+    {
+      "name": "email",
+      "type": "email",
+      "placeholder": "Email address",
+      "required": true
+    }
+  ],
+  "checkbox": {
+    "text": "I agree to receive updates and communications."
+  },
+  "socialLinks": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/acumenorg/",
+      "icon": "_include/ui/icon-ig.svg"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/acumenfund/",
+      "icon": "_include/ui/icon-fb.svg"
+    },
+    {
+      "platform": "twitter",
+      "url": "https://twitter.com/Acumen",
+      "icon": "_include/ui/icon-x.svg"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UCpuoLfl6gZl2jDa8lAlC8YQ",
+      "icon": "_include/ui/icon-yt.svg"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/acumen-fund/",
+      "icon": "_include/ui/icon-li.svg"
+    }
+  ],
+  "footerMenu": [
+    {
+      "text": "Privacy Policy",
+      "url": "https://acumen.org/privacy-policy/"
+    },
+    {
+      "text": "Terms of Use",
+      "url": "https://acumen.org/terms-of-use/"
+    },
+    {
+      "text": "Site Credit",
+      "url": "https://www.madeostudio.com"
+    }
+  ]
+}

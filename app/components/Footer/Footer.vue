@@ -1,32 +1,24 @@
 <script setup lang="ts">
-  const footerData = {
-    title: "Stand with the Champions.",
-    description:
-      "Join a growing community supporting climate resilience. Get stories, insights, and opportunities to stay involved. Love the World Game, love the world more.",
-    fields: [
-      {
-        name: "firstname",
-        type: "text",
-        placeholder: "First name",
-        required: true,
-      },
-      {
-        name: "lastname",
-        type: "text",
-        placeholder: "Last name",
-        required: true,
-      },
-      {
-        name: "email",
-        type: "email",
-        placeholder: "Email address",
-        required: true,
-      },
-    ],
-    checkbox: {
-      text: "I agree to receive updates and communications.",
-    },
+  import { footerDocSchema } from "../../../schemaTypes/footer";
+  import Nav from "../Nav/Nav.vue";
+
+  type QueryCollectionBuilder = {
+    first: () => Promise<unknown>;
   };
+  declare const queryCollection: (collection: string) => QueryCollectionBuilder;
+
+  const { data: footerContent } = await useAsyncData(() => {
+    return queryCollection("footer").first();
+  });
+
+  if (!footerContent.value) {
+    throw createError({
+      statusCode: 404,
+      statusMessage: "Footer content not found",
+    });
+  }
+
+  const footerData = footerDocSchema.parse(footerContent.value as unknown);
 </script>
 
 <template>
@@ -61,9 +53,9 @@
 
     <div class="footer__bottom px-md md:px-lg">
       <div
-        class="container grid-12 gap-none md:gap row-gap-md md:row-gap-none items-end"
+        class="container grid-12 gap-none md:gap row-gap-md md:row-gap-none items-center"
       >
-        <div class="span-12 md:span-6 lg:span-4">
+        <div class="span-3 lg:span-4">
           <NuxtImg
             class="footer__logo"
             src="/_include/ui/Acumen-Logo-Top.svg"
@@ -71,36 +63,14 @@
           />
         </div>
         <div
-          class="span-12 md:span-6 lg:span-8 justify-self-start lg:justify-self-end"
+          class="span-9 md:span-4 lg:span-4 flex items-center justify-self-end md:justify-self-start lg:justify-self-center"
         >
-          <nav>
-            <ul class="flex row gap-md">
-              <li>
-                <NuxtLink
-                  href="https://www.acumen.org"
-                  target="_blank"
-                  class="text text-body-sm"
-                  >Privacy Policy</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink
-                  href="https://www.acumen.org"
-                  target="_blank"
-                  class="text text-body-sm"
-                  >Terms of Use</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink
-                  href="https://www.acumen.org"
-                  target="_blank"
-                  class="text text-body-sm"
-                  >Site Credits</NuxtLink
-                >
-              </li>
-            </ul>
-          </nav>
+          <SocialLinks :data="footerData.socialLinks" />
+        </div>
+        <div
+          class="span-12 md:span-5 lg:span-4 justify-self-center lg:justify-self-end"
+        >
+          <Nav :items="footerData.footerMenu ?? []" />
         </div>
       </div>
     </div>

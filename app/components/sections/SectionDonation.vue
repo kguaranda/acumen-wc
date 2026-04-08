@@ -1,8 +1,9 @@
 <script setup lang="ts">
   import type { SectionItem } from "../../../schemaTypes/sections";
   import type { AccordionEntry } from "../Accordion/Accordion.vue";
+  import BackToDonation from "../BackToDonation/BackToDonation.vue";
   import DonationIllustration from "../illustrations/DonationIllustration.vue";
-  import { ref } from "vue";
+  import { onBeforeUnmount, onMounted, ref } from "vue";
 
   defineProps<{
     section: SectionItem;
@@ -12,10 +13,56 @@
   function onIllustrationClick(option: { id: string }) {
     openId.value = option.id;
   }
+
+  const sectionEl = ref<HTMLElement | null>(null);
+  const hasScrolledPastDonation = ref(false);
+
+  let observer: IntersectionObserver | null = null;
+
+  function scrollToDonation() {
+    const el = sectionEl.value;
+    if (!el) return;
+
+    const offset = 20;
+    const top = el.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: "smooth" });
+  }
+
+  onMounted(() => {
+    if (!sectionEl.value) return;
+
+    observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry) return;
+
+        // "Scrolled past" means the section is fully above the viewport.
+        const next =
+          entry.intersectionRatio === 0 && entry.boundingClientRect.bottom <= 0;
+
+        if (next !== hasScrolledPastDonation.value) {
+          hasScrolledPastDonation.value = next;
+        }
+      },
+      {
+        threshold: [0],
+      }
+    );
+
+    observer.observe(sectionEl.value);
+  });
+
+  onBeforeUnmount(() => {
+    observer?.disconnect();
+    observer = null;
+  });
 </script>
 
 <template>
-  <div class="section-donation flex column gap-giga px-giga">
+  <Teleport to="body">
+    <BackToDonation :open="hasScrolledPastDonation" @click="scrollToDonation" />
+  </Teleport>
+
+  <div ref="sectionEl" class="section-donation flex column gap-giga px-giga">
     <div class="container-md flex column gap-lg">
       <h2
         class="text text-display-lg text-display color-blue container-md text-align-center"
