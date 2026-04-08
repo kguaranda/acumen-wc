@@ -8,17 +8,17 @@
 
 <template>
   <div>
-    <div class="section-hero-video">
+    <div class="section-hero-video relative">
       <VideoLoop
         v-if="videoSrc"
         :src="videoSrc"
-        video-class="cover absolute top-0 left-0 w-full h-full section-hero-video__video section-hero-video__video__1 "
+        video-class="cover  absolute top-0 left-0 w-full h-full section-hero-video__video section-hero-video__video__1"
       />
 
       <VideoLoop
         v-if="videoSrc"
         :src="videoSrc"
-        video-class="cover absolute top-0 right-0 w-full h-full section-hero-video__video section-hero-video__video__2"
+        video-class="cover absolute top-0 left-0 w-full h-full section-hero-video__video section-hero-video__video__2"
       />
     </div>
   </div>
@@ -26,49 +26,29 @@
 
 <style scoped lang="scss">
   .section-hero-video {
+    aspect-ratio: 1307/600;
+
+    overflow: hidden;
     &__video {
-      border-radius: 30px;
+      // border-radius: 30px;
 
       &__1 {
-        width: 100%;
-        object-position: top left;
-        -webkit-mask-image: linear-gradient(
-          to right,
-          rgba(0, 0, 0, 1) 80%,
-          rgba(0, 0, 0, 0) 80%
-        );
-        mask-image: linear-gradient(
-          to right,
-          rgba(0, 0, 0, 1) 80%,
-          rgba(0, 0, 0, 0) 80%
-        );
-        -webkit-mask-repeat: no-repeat;
+        // aspect-ratio: 1310/600;
+        -webkit-mask-image: url("/_include/ui/video-mask-left.svg");
+        mask-image: url("/_include/ui/video-mask-left.svg");
         mask-repeat: no-repeat;
-        -webkit-mask-size: 100% 100%;
-        mask-size: 100% 100%;
-        height: 100%;
-        border-radius: 30px;
+        -webkit-mask-size: 81.1% 100%;
+        mask-size: 81.1% 100%;
+        mask-position: left center;
       }
-
       &__2 {
-        width: 100%;
-        object-position: top right;
-        -webkit-mask-image: linear-gradient(
-          to left,
-          rgba(0, 0, 0, 1) 20%,
-          rgba(0, 0, 0, 0) 20%
-        );
-        mask-image: linear-gradient(
-          to left,
-          rgba(0, 0, 0, 1) 20%,
-          rgba(0, 0, 0, 0) 20%
-        );
-        -webkit-mask-repeat: no-repeat;
+        // aspect-ratio: 1310/600;
+        -webkit-mask-image: url("/_include/ui/video-mask-right.svg");
+        mask-image: url("/_include/ui/video-mask-right.svg");
         mask-repeat: no-repeat;
-        -webkit-mask-size: 100% 100%;
-        mask-size: 100% 100%;
-        height: 100%;
-        border-radius: 30px;
+        -webkit-mask-size: 19.1% 100%;
+        mask-size: 19.1% 100%;
+        mask-position: right center;
       }
     }
   }

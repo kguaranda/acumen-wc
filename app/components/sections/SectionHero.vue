@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <div class="section-hero-container flex column gap-giga px-giga">
+  <div class="section section-hero-container flex column gap-giga">
     <div class="section-hero relative">
       <SectionHeroVideo :video-src="section.props.videoSrc ?? ''" />
 
@@ -30,11 +30,10 @@
 </template>
 
 <style scoped lang="scss">
-  .section-hero {
-    aspect-ratio: 1310/600;
-    overflow: hidden;
+  .section-hero-container {
+    padding-left: 64px;
+    padding-right: 64px;
   }
-
   .section-hero__overlay {
     position: absolute;
     left: 50px;

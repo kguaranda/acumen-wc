@@ -109,7 +109,6 @@
       border-radius: 5px;
 
       figure {
-        background: red;
         height: auto;
         width: 100%;
       }
@@ -119,12 +118,6 @@
           width: auto;
         }
       }
-
-      // .champion-card__meta {
-      //   display: inline-flex;
-      //   align-items: center;
-      //   gap: 10px;
-      // }
 
       &__image {
         width: 100%;
