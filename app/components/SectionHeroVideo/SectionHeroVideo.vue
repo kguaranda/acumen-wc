@@ -56,8 +56,8 @@
           invalidateOnRefresh: true,
           snap: {
             snapTo: (value: number) => (value < scrollCommitThreshold ? 0 : 1),
-            duration: { min: 0.28, max: 0.75 },
-            delay: 0.14,
+            duration: { min: 0.28, max: 0.5 },
+            delay: 0.1,
             ease: "power2.inOut",
             inertia: false,
           },

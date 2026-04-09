@@ -17,9 +17,9 @@
 <template>
   <div>
     <div
-      class="section section-hero flex column gap-giga fixed top-0 left-0 w-full h-auto z-10"
+      class="section section-hero flex column gap-giga fixed top-0 left-0 w-full h-auto z-99"
     >
-      <div ref="sectionHeroVideoRef" class="section-hero__video relative">
+      <div ref="sectionHeroVideoRef" class="section-hero__videos relative z-20">
         <SectionHeroVideo
           :video-src="section.props.videoSrc ?? ''"
           :title="section.props.title"
@@ -45,7 +45,7 @@
     </div>
 
     <div
-      class="flex column gap-lg container-md relative z-10 section-hero__richtext"
+      class="flex column gap-lg container-md relative z-0 section-hero__richtext"
     >
       <RichText :richtext="section.props.richtext" />
     </div>
