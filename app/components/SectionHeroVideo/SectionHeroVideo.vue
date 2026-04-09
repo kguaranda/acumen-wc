@@ -141,6 +141,7 @@
             class="section-hero-video__swipe-cta flex column items-center justify-center gap"
             role="button"
             tabindex="0"
+            style="pointer-events: all"
             @click="scrollHeroOpen"
             @keydown.enter.prevent="scrollHeroOpen"
             @keydown.space.prevent="scrollHeroOpen"
@@ -162,6 +163,7 @@
   .section-hero-video {
     aspect-ratio: 1307/600;
     overflow: hidden;
+    pointer-events: none;
 
     &__layer {
       position: absolute;

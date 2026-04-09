@@ -56,6 +56,7 @@
 <style scoped lang="scss">
   .section-hero {
     padding-top: 50px;
+    pointer-events: none;
 
     &__logo,
     &__richtext {
