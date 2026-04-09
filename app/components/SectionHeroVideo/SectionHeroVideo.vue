@@ -41,7 +41,8 @@
     const root = rootRef.value;
     const left = layerLeftRef.value;
     const right = layerRightRef.value;
-    if (!gsap || !root || !left || !right) return;
+    const videoHeight = rootRef.value?.clientHeight ?? 0;
+    if (!gsap || !root || !left || !right || !videoHeight) return;
 
     ctx = gsap.context(() => {
       let lastHeaderLogoVisible: boolean | null = null;
@@ -50,7 +51,7 @@
         scrollTrigger: {
           trigger: document.documentElement,
           start: "top top",
-          end: () => `+=${Math.round(window.innerHeight * 0.85)}`,
+          end: () => `+=${Math.round(videoHeight + 100)}`,
           scrub: 0.45,
           invalidateOnRefresh: true,
           snap: {
@@ -90,7 +91,10 @@
 <template>
   <div>
     <div ref="rootRef" class="section-hero-video relative">
-      <div ref="layerLeftRef" class="section-hero-video__layer">
+      <div
+        ref="layerLeftRef"
+        class="section-hero-video__layer section-hero-video__layer__left"
+      >
         <VideoLoop
           v-if="videoSrc"
           :src="videoSrc"
@@ -111,7 +115,10 @@
         </div>
       </div>
 
-      <div ref="layerRightRef" class="section-hero-video__layer">
+      <div
+        ref="layerRightRef"
+        class="section-hero-video__layer section-hero-video__layer__right"
+      >
         <VideoLoop
           v-if="videoSrc"
           :src="videoSrc"
@@ -157,14 +164,17 @@
       position: absolute;
       inset: 0;
       will-change: transform;
+      width: calc(100% - 128px);
+      margin: 0 auto;
     }
 
     &__overlay {
       position: absolute;
-      width: 100%;
-      height: 100%;
+      width: 81.1%;
+      height: calc(100% - 64px);
       left: 0;
-      bottom: 0;
+      top: 50%;
+      transform: translateY(-50%);
       padding: 0 0 40px 30px;
       z-index: 1;
     }
@@ -173,7 +183,9 @@
       position: absolute;
       top: 0;
       right: 0;
-      bottom: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      height: calc(100% - 64px);
       width: 19.1%;
       padding-bottom: 40px;
       z-index: 1;
