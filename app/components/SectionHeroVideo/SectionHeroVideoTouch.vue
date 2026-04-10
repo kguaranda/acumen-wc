@@ -129,17 +129,19 @@
           video-class="cover absolute top-0 left-0 w-full h-full section-hero-video__video section-hero-video__video__1 z-1"
         />
 
-        <div class="section-hero-video__overlay flex row items-end">
-          <div>
-            <img
-              class="section-hero-video__icon mb-lg"
-              src="/_include/icons/hero_icon.svg"
-              :alt="title ?? ''"
-            />
-            <h1 class="text text-heading-xl text-black color-white">
-              {{ subhead }}
-            </h1>
-          </div>
+        <div
+          class="section-hero-video__overlay flex column items-center justify-center"
+        >
+          <img
+            class="section-hero-video__icon mb-lg"
+            src="/_include/icons/hero_icon.svg"
+            :alt="title ?? ''"
+          />
+          <h1
+            class="text text-heading-xl text-black color-white text-align-center px-md"
+          >
+            {{ subhead }}
+          </h1>
         </div>
       </div>
 
@@ -155,14 +157,8 @@
         />
 
         <div
-          class="section-hero-video__overlay-right flex column gap-md justify-space-between items-center py-md"
+          class="section-hero-video__overlay-right flex row justify-space-between items-center py-md px-md"
         >
-          <NuxtImg
-            class="section-hero-video__logo"
-            src="/_include/ui/Acumen-Logo-Top.svg"
-            alt="Acumen"
-          />
-
           <div
             class="section-hero-video__swipe-cta flex column items-center justify-center gap"
             role="button"
@@ -176,9 +172,15 @@
             <NuxtImg
               src="/_include/icons/fan.svg"
               alt=""
-              style="width: 48px; height: auto"
+              style="width: 28px; height: auto"
             />
           </div>
+
+          <NuxtImg
+            class="section-hero-video__logo"
+            src="/_include/ui/Acumen-Logo-Top.svg"
+            alt="Acumen"
+          />
         </div>
       </div>
     </div>
@@ -202,25 +204,21 @@
     &__overlay {
       position: absolute;
       width: 100%;
-      height: calc(76.55%);
+      height: calc(75.55%);
       left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      padding: 0 0 40px 30px;
+      top: 0%;
+
+      padding: 0 0 25px;
       z-index: 1;
-      display: none;
     }
 
     &__overlay-right {
-      display: none;
       position: absolute;
-      top: 0;
-      right: 0;
-      top: 50%;
-      transform: translateY(-50%);
+      left: 0;
+      bottom: 0%;
       height: calc(24.44%);
       width: 100%;
-      padding-bottom: 40px;
+
       z-index: 1;
     }
 
@@ -236,13 +234,13 @@
     }
 
     &__logo {
-      width: 100px;
+      width: 50px;
       height: auto;
     }
 
     &__icon {
       display: block;
-      width: 245px;
+      width: 112px;
       height: auto;
     }
 

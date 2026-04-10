@@ -184,9 +184,15 @@ $text-settings-array: (
     "font-size": px-to-rem($text-size-heading-xl),
     "line-height": line-height($text-lh-heading-xl, $text-size-heading-xl),
     "font-size-md": px-to-rem($text-size-heading-xl),
-    "line-height-md": line-height($text-lh-heading-xl, $text-size-heading-xl),
-    "font-size-lg": px-to-rem($text-size-heading-xl),
-    "line-height-lg": line-height($text-lh-heading-xl, $text-size-heading-xl),
+    "line-height-md": line-height(
+        $text-lh-heading-xl,
+        $text-size-heading-xl-desktop
+      ),
+    "font-size-lg": px-to-rem($text-size-heading-xl-desktop),
+    "line-height-lg": line-height(
+        $text-lh-heading-xl-desktop,
+        $text-size-heading-xl-desktop
+      ),
   ),
   "display-lg": (
     "font-name": "piepie",
