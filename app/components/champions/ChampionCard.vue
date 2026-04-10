@@ -144,7 +144,7 @@
       overflow-y: hidden;
       scroll-snap-type: x mandatory;
       -webkit-overflow-scrolling: touch;
-      overscroll-behavior-x: contain;
+      overscroll-behavior-x: none;
 
       // Hide scrollbar (still swipeable)
       scrollbar-width: none; // Firefox
@@ -198,6 +198,7 @@
         flex: 0 0 100%;
         scroll-snap-align: start;
         scroll-snap-stop: always;
+
         padding: 30px 25px;
 
         // Remove utility paddings used for desktop grid spacing
