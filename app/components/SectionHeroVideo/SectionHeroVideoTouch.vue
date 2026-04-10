@@ -100,8 +100,8 @@
         },
       });
 
-      tl.to(top, { y: "-110vw", ease: "none" }, 0);
-      tl.to(bottom, { y: "110vw", ease: "none" }, 0);
+      tl.to(top, { y: "-110vh", ease: "none" }, 0);
+      tl.to(bottom, { y: "110vh", ease: "none" }, 0);
 
       heroScrollTrigger = tl.scrollTrigger ?? null;
     }, root);

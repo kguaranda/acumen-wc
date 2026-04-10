@@ -198,7 +198,7 @@
         flex: 0 0 100%;
         scroll-snap-align: start;
         scroll-snap-stop: always;
-        padding: 20px 25px;
+        padding: 30px 25px;
 
         // Remove utility paddings used for desktop grid spacing
         > div,
