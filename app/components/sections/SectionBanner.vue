@@ -225,9 +225,4 @@
       transform: translateX(-50%);
     }
   }
-
-  .marquee__inner {
-    animation: none;
-    transform: translateX(0);
-  }
 </style>
