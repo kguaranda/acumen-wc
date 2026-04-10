@@ -11,12 +11,14 @@
 
 <template>
   <div class="back" :class="{ 'back--open': open }">
-    <div class="back__content flex row justify-space-between px-md py-md">
+    <div
+      class="back__content flex row justify-space-between px md:px-md py md:py-md"
+    >
       <div class="back__content__icon">
         <img src="/_include/images/logo-bar.svg" alt="Back to donation" />
       </div>
       <button
-        class="back__button bg-blue color-white text text-heading-sm text-black flex items-center justify-center px-md py-md border-2 border-blue hover:bg-white hover:color-blue transition-all duration-default"
+        class="back__button bg-blue color-white text text-heading-sm text-black flex items-center justify-center border-2 border-blue hover:bg-white hover:color-blue transition-all duration-default"
         type="button"
         @click="$emit('click')"
       >
@@ -44,11 +46,19 @@
 
     &__button {
       border-radius: 999px;
-      padding: 10px 15px 8px 15px;
+      padding: 6px 10px 6px 10px;
       line-height: 1;
 
-      min-width: 170px;
-      cursor: pointer;
+      min-width: 100px;
+
+      @include can-hover {
+        cursor: pointer;
+      }
+
+      @include md-up {
+        padding: 10px 15px 8px 15px;
+        min-width: 170px;
+      }
     }
   }
 </style>
