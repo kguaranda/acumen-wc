@@ -78,7 +78,7 @@
 
     &__logo,
     &__richtext {
-      margin-top: calc(60svh);
+      margin-top: calc(75svh);
 
       @include sm-up {
         margin-top: 50vw;
