@@ -53,7 +53,12 @@
       <div
         class="container grid-12 gap-none md:gap row-gap-md md:row-gap-none items-center"
       >
-        <a href="https://acumen.org" target="_blank" class="span-3 lg:span-4">
+        <a
+          href="https://acumen.org"
+          target="_blank"
+          class="span-12 lg:span-4 justify-self-center md:justify-self-start"
+          style=""
+        >
           <NuxtImg
             class="footer__logo"
             src="/_include/ui/Acumen-Logo-Top.svg"
@@ -61,7 +66,7 @@
           />
         </a>
         <div
-          class="span-9 md:span-4 lg:span-4 flex items-center justify-self-end md:justify-self-start lg:justify-self-center"
+          class="span-12 md:span-4 lg:span-4 flex items-center justify-self-center md:justify-self-start lg:justify-self-center"
         >
           <SocialLinks :data="footerData.socialLinks ?? []" />
         </div>

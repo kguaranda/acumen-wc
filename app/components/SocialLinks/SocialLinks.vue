@@ -31,9 +31,9 @@
     gap: 0.5rem;
     &__item {
       border-radius: 50%;
-      background-color: $color-yellow;
-      width: 30px;
-      height: 30px;
+      background-color: transparent;
+      width: 28px;
+      height: 28px;
       transition: background-color 0.3s ease;
       display: flex;
       align-items: center;
@@ -50,15 +50,6 @@
         display: block;
         width: 100%;
         height: auto;
-      }
-
-      @include can-hover {
-        background-color: transparent;
-      }
-
-      @include lg-up {
-        width: 28px;
-        height: 28px;
       }
 
       @include can-hover {
