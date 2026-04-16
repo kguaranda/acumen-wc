@@ -3,18 +3,20 @@
 @use "../abstracts/_variables" as *;
 @use "../base/_mediaQueries" as *;
 
-$breakpoints: (base, sm, md, lg, giga, giga-2);
+$breakpoints: (base, sm, md, lg, xl, giga, giga-2);
 
 $utilities-base: ();
 $utilities-sm: ();
 $utilities-md: ();
 $utilities-lg: ();
+$utilities-xl: ();
 $utilities-giga: ();
 
 $utilities-hover-base: ();
 $utilities-hover-sm: ();
 $utilities-hover-md: ();
 $utilities-hover-lg: ();
+$utilities-hover-xl: ();
 $utilities-hover-giga: ();
 
 @mixin add-utility($breakpoint, $class, $props, $variants: ()) {
@@ -77,6 +79,22 @@ $utilities-hover-giga: ();
     @if list.index($variants, hover) {
       $utilities-hover-lg: map.merge(
         $utilities-hover-lg,
+        (
+          $class: $props,
+        )
+      ) !global;
+    }
+  } @else if $breakpoint == xl {
+    $utilities-xl: map.merge(
+      $utilities-xl,
+      (
+        $class: $props,
+      )
+    ) !global;
+
+    @if list.index($variants, hover) {
+      $utilities-hover-xl: map.merge(
+        $utilities-hover-xl,
         (
           $class: $props,
         )
@@ -156,6 +174,17 @@ $utilities-hover-giga: ();
       }
     }
 
+    // xl hover
+    @include xl-up {
+      @each $class, $props in $utilities-hover-xl {
+        .xl\:hover\:#{$class}:hover {
+          @each $prop, $val in $props {
+            #{$prop}: #{$val};
+          }
+        }
+      }
+    }
+
     // giga hover
     @include giga-up {
       @each $class, $props in $utilities-hover-giga {
@@ -194,6 +223,17 @@ $utilities-hover-giga: ();
   @include lg-up {
     @each $class, $props in $utilities-lg {
       .lg\:#{$class} {
+        @each $prop, $val in $props {
+          #{$prop}: #{$val};
+        }
+      }
+    }
+  }
+
+  // xl
+  @include xl-up {
+    @each $class, $props in $utilities-xl {
+      .xl\:#{$class} {
         @each $prop, $val in $props {
           #{$prop}: #{$val};
         }

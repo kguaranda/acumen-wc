@@ -149,6 +149,13 @@
             color: $color-white;
           }
         }
+
+        .form__submit {
+          min-width: 200px;
+          margin: 0 auto;
+          font-family: $base-font-family-black;
+          font-size: 24px;
+        }
       }
     }
 
@@ -223,6 +230,8 @@
         min-height: 42px;
         padding: 9px 22px 10px;
         border-radius: 50px;
+        // max-width: 200px;
+        // margin: 0 auto;
       }
     }
   }

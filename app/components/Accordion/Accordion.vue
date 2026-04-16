@@ -96,7 +96,7 @@
       max-width: 400px;
       margin: 0 auto;
     }
-    @include lg-up {
+    @include xl-up {
       max-width: none;
     }
   }

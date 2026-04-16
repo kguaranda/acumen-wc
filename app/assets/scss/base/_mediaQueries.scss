@@ -18,6 +18,12 @@
   }
 }
 
+@mixin xl-up {
+  @media (min-width: $breakpoint-xl) {
+    @content;
+  }
+}
+
 @mixin giga-up {
   @media (min-width: $breakpoint-giga) {
     @content;
@@ -43,6 +49,12 @@
   }
 }
 
+@mixin xl-down {
+  @media (max-width: #{$breakpoint-xl - 1px}) {
+    @content;
+  }
+}
+
 @mixin giga-down {
   @media (max-width: #{$breakpoint-giga - 1px}) {
     @content;
@@ -63,7 +75,13 @@
 }
 
 @mixin lg-only {
-  @media (min-width: $breakpoint-lg) and (max-width: #{$breakpoint-giga - 1px}) {
+  @media (min-width: $breakpoint-lg) and (max-width: #{$breakpoint-xl - 1px}) {
+    @content;
+  }
+}
+
+@mixin xl-only {
+  @media (min-width: $breakpoint-xl) and (max-width: #{$breakpoint-giga - 1px}) {
     @content;
   }
 }

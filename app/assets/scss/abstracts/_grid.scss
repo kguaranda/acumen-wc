@@ -32,6 +32,13 @@
   )
 );
 @include add-utility(
+  xl,
+  "span-1",
+  (
+    grid-column: span 1,
+  )
+);
+@include add-utility(
   giga,
   "span-1",
   (
@@ -81,6 +88,15 @@
     // lg span
     @include add-utility(
       lg,
+      "span-#{$i}",
+      (
+        grid-column: span #{$i},
+      )
+    );
+
+    // xl span
+    @include add-utility(
+      xl,
       "span-#{$i}",
       (
         grid-column: span #{$i},

@@ -166,7 +166,7 @@
           {{ copy }}
         </p>
 
-        <div v-if="id === 'becomeAFan'" class="px-md">
+        <div v-if="id === 'becomeAFan'" class="md:px-md">
           <Form
             class="accordion-item__form"
             modifier="accordion"

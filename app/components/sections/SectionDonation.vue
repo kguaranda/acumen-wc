@@ -79,10 +79,15 @@
     <div
       class="section-donation__illustration grid-6 gap-lg md:gap-giga container"
     >
-      <div class="span-6 lg:span-4 order-2 lg:order-1">
-        <DonationIllustration :active-id="openId" @click="onIllustrationClick" />
+      <div class="span-6 xl:span-4 order-2 xl:order-1">
+        <DonationIllustration
+          :active-id="openId"
+          @click="onIllustrationClick"
+        />
       </div>
-      <div class="span-6 lg:span-2 order-1 lg:order-2">
+      <div
+        class="section-donation__accordion span-6 xl:span-2 order-1 xl:order-2"
+      >
         <Accordion
           v-model:open-id="openId"
           :items="section.props.tiers as AccordionEntry[]"
@@ -97,6 +102,18 @@
     &__illustration {
       width: 100%;
       height: auto;
+    }
+
+    &__accordion {
+      min-width: auto;
+
+      @include lg-up {
+        min-width: 460px;
+      }
+
+      @include giga-up {
+        min-width: auto;
+      }
     }
   }
 </style>
