@@ -99,7 +99,7 @@
 </script>
 
 <template>
-  <div class="section-banner">
+  <div v-if="data?.length >= 5" class="section-banner">
     <div v-if="pending" class="section-banner__state container-md">
       Loading…
     </div>

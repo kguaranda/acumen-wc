@@ -10,20 +10,14 @@ export default defineEventHandler(async () => {
   }
 
   try {
-    const response = await $fetch(
-      "https://api.funraise.io/api/v1/crm/donation",
-      {
-        method: "GET",
-        headers: {
-          Accept: "application/json",
-          "X-Api-Key": apiKey,
-        },
-        query: {
-          pageSize: 100,
-          page: 1,
-        },
-      }
-    );
+    const response = await $fetch("https://api.funraise.io/api/v1/form", {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+        "X-Api-Key": apiKey,
+      },
+      query: {},
+    });
 
     console.log("response", response);
   } catch (error) {
@@ -34,11 +28,5 @@ export default defineEventHandler(async () => {
   return [
     { batch: "match-mvp", name: "Name Namesen" },
     { batch: "backline", name: "Name Namesen" },
-    { batch: "midfield-engine", name: "Name Namesen" },
-    { batch: "super-sub", name: "Name Namesen" },
-    { batch: "match-mvp", name: "Name Namesen" },
-    { batch: "backline", name: "Name Namesen" },
-    { batch: "midfield-engine", name: "Name Namesen" },
-    { batch: "super-sub", name: "Name Namesen" },
   ];
 });

@@ -19,6 +19,11 @@ export default defineNuxtConfig({
       HUBSPOT_FORM_ID: env.NUXT_PUBLIC_HUBSPOT_FORM_ID,
     },
   },
+
+  nitro: {
+    preset: "cloudflare-pages",
+  },
+
   app: {
     head: {
       title: "Acumen – Love the world game. Love the world more.",
