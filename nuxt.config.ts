@@ -20,9 +20,9 @@ export default defineNuxtConfig({
     },
   },
 
-  // nitro: {
-  //   preset: "cloudflare-pages",
-  // },
+  nitro: {
+    preset: "cloudflare-pages",
+  },
 
   app: {
     head: {
