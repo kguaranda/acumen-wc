@@ -22,7 +22,7 @@
   const sections = validatedPage.sections;
 
   onMounted(() => {
-    console.log("mounted");
+    console.log("can kevin see this?");
   });
 </script>
 
