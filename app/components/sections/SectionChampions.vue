@@ -10,7 +10,7 @@
   <div
     class="section section-champions flex column gap-lg md:gap-giga px-md md:px-giga lg:px-giga relative z-10"
   >
-    <div class="container-md flex column gap-md md:gap-lg">
+    <div class="container-md flex column gap-lg md:gap-giga">
       <h2
         class="text text-display-lg text-display color-blue text-align-left md:text-align-center lg:text-align-center"
       >

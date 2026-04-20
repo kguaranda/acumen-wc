@@ -24,7 +24,7 @@
       "id": "donation",
       "type": "donation",
       "props": {
-        "title": "Help us change the game.",
+        "title": "Help us change the game",
         "richtext": [
           {
             "tag": "p",
@@ -117,7 +117,7 @@
             "focusLabel": "Cropbank (WA, Ag)",
             "name": "Buffy Okeke-Ojiudu",
             "image": "/_include/images/Buffy-O-headshot.webp",
-            "role": "Acumen fellow and investee",
+            "role": "Founder and CEO",
             "country": "Nigeria",
             "flag": "/_include/images/Flag_of_Nigeria.svg",
             "company": "Zebra Cropbank",
@@ -145,7 +145,7 @@
             "focusLabel": "OMIA (Foundry member, EA, Ag)",
             "name": "Iganachi Razaki Omia",
             "image": "/_include/images/Razak–ACUMEN_OMIA_11.webp",
-            "role": "Founder of Omia Agribusiness",
+            "role": "Founder",
             "country": "Uganda",
             "flag": "/_include/images/Flag_of_Uganda.svg",
             "company": "Omia Agribusiness",

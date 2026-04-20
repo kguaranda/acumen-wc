@@ -45,7 +45,7 @@
       },
       {
         threshold: [0],
-      }
+      },
     );
 
     observer.observe(sectionEl.value);
@@ -66,7 +66,7 @@
     ref="sectionEl"
     class="section section-donation flex column gap-md md:gap-giga px-md md:px-giga lg:px-giga relative z-10"
   >
-    <div class="container-md flex column gap-md md:gap-lg">
+    <div class="container-md flex column gap-lg md:gap-giga">
       <h2
         class="text text-display-lg text-display color-blue container-md md:text-align-center"
       >

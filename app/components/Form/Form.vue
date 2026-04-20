@@ -16,6 +16,7 @@
   };
 
   const formData = ref<Record<string, string>>({});
+  const submissionSuccess = ref(false);
 
   const props = defineProps<{
     data: FooterFormData;
@@ -36,8 +37,12 @@
         },
         body: JSON.stringify(formData.value),
       });
-
-      console.log("response", response);
+      const data = (await response.json().catch(() => ({}))) as {
+        success?: boolean;
+      };
+      if (response.ok && data.success === true) {
+        submissionSuccess.value = true;
+      }
     } catch (error) {
       console.error("error", error);
     }
@@ -46,7 +51,15 @@
 
 <template>
   <div class="form" :class="modifierClass('form')">
+    <div
+      v-if="submissionSuccess"
+      class="form__success text text-heading text-black"
+      :class="modifierClass('form__success')"
+    >
+      Thanks for joining!
+    </div>
     <form
+      v-else
       class="form__fields flex column md:row wrap gap-md"
       :class="modifierClass('form__fields')"
       @submit.prevent="handleSubmit"
