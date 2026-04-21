@@ -16,7 +16,7 @@
   };
 
   const formData = ref<Record<string, string>>({});
-  const submissionSuccess = ref(false);
+  const submissionSuccess = ref(true);
 
   const props = defineProps<{
     data: FooterFormData;
@@ -53,10 +53,11 @@
   <div class="form" :class="modifierClass('form')">
     <div
       v-if="submissionSuccess"
-      class="form__success text text-heading text-black"
+      class="form__success text text-heading text-bold"
       :class="modifierClass('form__success')"
     >
-      Thanks for joining!
+      Thank you for signing up! <br /><br />Be on the lookout for the latest
+      news and updates from Acumen.
     </div>
     <form
       v-else
