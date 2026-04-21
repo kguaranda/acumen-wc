@@ -10,16 +10,17 @@ export default defineEventHandler(async () => {
   }
 
   try {
-    const response = await $fetch("https://api.funraise.io/api/v1/form", {
-      method: "GET",
-      headers: {
-        Accept: "application/json",
-        "X-Api-Key": apiKey,
-      },
-      query: {},
-    });
-
-    console.log("response", response);
+    const response = await $fetch(
+      "https://api.funraise.io/api/v1/crm/donation",
+      {
+        method: "GET",
+        headers: {
+          Accept: "application/json",
+          "X-Api-Key": apiKey,
+        },
+        query: {},
+      }
+    );
   } catch (error) {
     console.error("Failed to fetch banner data", error);
     return [];
