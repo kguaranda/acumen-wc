@@ -28,7 +28,7 @@
         "richtext": [
           {
             "tag": "p",
-            "text": "Help fill our virtual stadium to support entrepreneurs helping low income communities adapt to climate change. Choose your section and back real solutions built for the long term.*"
+            "text": "When you donate to Acumen you are supporting entrepreneurs helping low income communities adapt to climate change. Choose your section in our virtual stadium and back real solutions built for the long term.*"
           }
         ],
         "tiersIntro": "Your contribution supports Acumen's portfolio of work, helping scale solutions where they are needed most.",
@@ -109,14 +109,14 @@
             "company": "S4S Technologies",
             "blurb": "When nearly 30% of food is lost before leaving the farm, it's more than waste, it's lost income and resilience. Through S4S Technologies, Nidhi equips rural women with solar-powered dryers, turning rejected crops into thriving businesses and lasting economic independence.",
             "ctaText": "Learn more",
-            "ctaLink": "https://acumen.org/companies/s4s-technologies/"
+            "ctaLink": "https://acumen.org/blog/feeding-two-birds-with-one-seed-gender-empowerment-and-environmental-impact-in-india/"
           },
           {
             "bg": "purple-dark",
             "imageBg": "orange",
             "focusLabel": "Cropbank (WA, Ag)",
             "name": "Buffy Okeke-Ojiudu",
-            "image": "/_include/images/Buffy-O-headshot.webp",
+            "image": "/_include/images/buffy.webp",
             "role": "Founder and CEO",
             "country": "Nigeria",
             "flag": "/_include/images/Flag_of_Nigeria.svg",

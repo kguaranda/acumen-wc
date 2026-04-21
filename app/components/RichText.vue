@@ -20,7 +20,7 @@
       :is="block.tag"
       v-for="(block, index) in richtext"
       :key="`${index}-${block.tag}`"
-      :class="block.tag === 'h3' ? h3Class : pClass"
+      :class="[block.tag === 'h3' ? h3Class : pClass]"
     >
       {{ block.text }}
     </component>

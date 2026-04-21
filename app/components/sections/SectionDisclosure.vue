@@ -13,7 +13,7 @@
     <div class="container-md flex column gap">
       <RichText
         :richtext="section.props.richtext"
-        p-class="text text-label color-black "
+        p-class="text text-label color-black text-bold"
       />
     </div>
   </div>
