@@ -16,7 +16,7 @@
   };
 
   const formData = ref<Record<string, string>>({});
-  const submissionSuccess = ref(true);
+  const submissionSuccess = ref(false);
 
   const props = defineProps<{
     data: FooterFormData;
