@@ -4,6 +4,7 @@
   import midfieldEngine from "@/components/icons/midfield-engine.vue";
   import superSub from "@/components/icons/super-sub.vue";
   import matchMvp from "@/components/icons/match-mvp.vue";
+  import fan from "@/components/icons/fan.vue";
   import {
     computed,
     nextTick,
@@ -15,7 +16,8 @@
 
   type BannerItem = {
     batch: string;
-    name: string;
+    firstname: string;
+    lastname: string;
   };
 
   const props = defineProps<{
@@ -94,6 +96,7 @@
     if (name === "midfield-engine") return midfieldEngine;
     if (name === "super-sub") return superSub;
     if (name === "match-mvp") return matchMvp;
+    if (name === "fan") return fan;
     return null;
   };
 </script>
@@ -125,7 +128,9 @@
               <component :is="checkBatchIcon(item.batch)" color="#FF3500" />
             </span>
 
-            <span class="marquee__name">{{ item.name }}</span>
+            <span class="marquee__name"
+              >{{ item.firstname }} {{ item.lastname }}</span
+            >
           </span>
         </div>
 
@@ -140,7 +145,9 @@
               <span class="marquee__batch">
                 <component :is="checkBatchIcon(item.batch)" color="#FF3500" />
               </span>
-              <span class="marquee__name">{{ item.name }}</span>
+              <span class="marquee__name"
+                >{{ item.firstname }} {{ item.lastname }}</span
+              >
             </span>
           </div>
           <div class="marquee__track" aria-hidden="true">
@@ -152,7 +159,9 @@
               <span class="marquee__batch">
                 <component :is="checkBatchIcon(item.batch)" color="#FF3500" />
               </span>
-              <span class="marquee__name">{{ item.name }}</span>
+              <span class="marquee__name"
+                >{{ item.firstname }} {{ item.lastname }}</span
+              >
             </span>
           </div>
         </div>

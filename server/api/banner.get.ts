@@ -21,13 +21,42 @@ export default defineEventHandler(async () => {
         query: {},
       }
     );
+
+    type BannerItem = {
+      firstname: string;
+      lastname: string;
+      batch: string;
+    };
+    const bannerData = mapBannerData(response as BannerItem[]);
+
+    return bannerData;
   } catch (error) {
     console.error("Failed to fetch banner data", error);
     return [];
   }
-
-  return [
-    { batch: "match-mvp", name: "Name Namesen" },
-    { batch: "backline", name: "Name Namesen" },
-  ];
 });
+
+const mapBannerData = (data: unknown[]) => {
+  if (!data || data.length === 0) return [];
+
+  return data
+    .filter(
+      (item: any) =>
+        item?.form?.id === 49591 &&
+        item.transaction.amount > 0 &&
+        item.transaction?.billingFirstName
+    )
+    .map((item: any) => ({
+      firstname: item.transaction.billingFirstName,
+      lastname: item.transaction.billingLastName,
+      batch: batchType(item.transaction.amount),
+    }));
+};
+
+const batchType = (amount: number) => {
+  if (amount >= 1000) return "match-mvp";
+  if (amount >= 500) return "backline";
+  if (amount >= 100) return "midfield-engine";
+  if (amount >= 25) return "super-sub";
+  return "fan";
+};
