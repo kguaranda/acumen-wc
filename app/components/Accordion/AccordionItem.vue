@@ -119,7 +119,11 @@
 </script>
 
 <template>
-  <div class="accordion-item color-white" :class="{ 'is-open': isOpen }">
+  <div
+    :id="id"
+    class="accordion-item color-white"
+    :class="{ 'is-open': isOpen }"
+  >
     <button
       class="accordion-item__header debug"
       :class="bgClass"

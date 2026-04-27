@@ -66,6 +66,19 @@
     const nextOpenId = activeId.value === id ? null : id;
     activeId.value = nextOpenId;
     emit("update:openId", nextOpenId);
+
+    if (nextOpenId !== null) {
+      console.log("opening", nextOpenId);
+      // Scroll the opened AccordionItem into view.
+      setTimeout(() => {
+        const el = document.getElementById(nextOpenId);
+
+        if (el) {
+          // First scroll into view, then adjust for 20px offset
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }, 400);
+    }
   };
 </script>
 

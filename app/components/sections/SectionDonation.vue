@@ -12,6 +12,13 @@
   const openId = ref<string | null>("theSuperSub");
   function onIllustrationClick(option: { id: string }) {
     openId.value = option.id;
+
+    const el = document.getElementById(option.id);
+    setTimeout(() => {
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }, 400);
   }
 
   const sectionEl = ref<HTMLElement | null>(null);
@@ -45,7 +52,7 @@
       },
       {
         threshold: [0],
-      },
+      }
     );
 
     observer.observe(sectionEl.value);
