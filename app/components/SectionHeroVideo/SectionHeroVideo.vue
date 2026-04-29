@@ -505,11 +505,12 @@
 
       &__video {
         &__1 {
-          -webkit-mask-image: url("/_include/ui/video-mask-left.svg");
-          mask-image: url("/_include/ui/video-mask-left.svg");
+          -webkit-mask-image: url("/_include/ui/video-mask-left_2.svg");
+          mask-image: url("/_include/ui/video-mask-left_2.svg");
           -webkit-mask-size: $vm-desktop-left-width 100%;
           mask-size: $vm-desktop-left-width 100%;
           mask-position: left center;
+          transform: translateY(0px);
         }
         &__2 {
           -webkit-mask-image: url("/_include/ui/video-mask-right.svg");
