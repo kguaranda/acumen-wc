@@ -454,21 +454,27 @@
       display: none;
     }
 
+    $vm-desktop-left-width: 80.9451219512%;
+    $vm-desktop-right-width: 19.05487804878%;
+
     @include sm-up {
-      aspect-ratio: 1307/600;
-      width: auto;
+      aspect-ratio: 1312/600;
+      width: calc(100% - 64px);
+
+      @include lg-up {
+        width: calc(100% - 128px);
+      }
 
       &__layer {
-        width: calc(100% - 64px);
-        margin: 0 auto;
-        @include lg-up {
-          width: calc(100% - 128px);
-        }
+        // @include lg-up {
+        //   width: calc(100% - 128px);
+        // }
       }
 
       &__overlay {
-        width: 81.1%;
+        width: $vm-desktop-left-width;
         height: calc(100% - 64px);
+
         top: 50%;
         transform: translateY(-50%);
         padding: 0 0 40px 30px;
@@ -481,7 +487,7 @@
         top: 50%;
         transform: translateY(-50%);
         height: calc(100% - 64px);
-        width: 19.1%;
+        width: $vm-desktop-right-width;
         padding-bottom: 40px;
       }
 
@@ -501,15 +507,15 @@
         &__1 {
           -webkit-mask-image: url("/_include/ui/video-mask-left.svg");
           mask-image: url("/_include/ui/video-mask-left.svg");
-          -webkit-mask-size: 81.1% 100%;
-          mask-size: 81.1% 100%;
+          -webkit-mask-size: $vm-desktop-left-width 100%;
+          mask-size: $vm-desktop-left-width 100%;
           mask-position: left center;
         }
         &__2 {
           -webkit-mask-image: url("/_include/ui/video-mask-right.svg");
           mask-image: url("/_include/ui/video-mask-right.svg");
-          -webkit-mask-size: 19.1% 100%;
-          mask-size: 19.1% 100%;
+          -webkit-mask-size: $vm-desktop-right-width 100%;
+          mask-size: $vm-desktop-right-width 100%;
           mask-position: right center;
         }
       }
