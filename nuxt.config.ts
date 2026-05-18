@@ -52,6 +52,20 @@ export default defineNuxtConfig({
           href: "/favicon-16x16.png",
         },
         { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
+        {
+          rel: "preload",
+          as: "image",
+          type: "image/webp",
+          href: "/_include/videos/6508465_Ball%20Football%20Rain%20Village_By_Phong_Croco_Artlist_HD_web.webp",
+          fetchpriority: "high",
+        },
+        {
+          rel: "preload",
+          as: "video",
+          type: "video/mp4",
+          href: "/_include/videos/6508465_Ball_Football_Rain_Village_By_Phong_Croco_Artlist_4K.mp4",
+          fetchpriority: "high",
+        },
         { rel: "stylesheet", href: "https://use.typekit.net/pzv2tcy.css" },
       ],
       script: [
