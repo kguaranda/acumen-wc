@@ -56,7 +56,21 @@ export default defineNuxtConfig({
       meta: [
         {
           name: "description",
-          content: "Acumen boilerplate app",
+          content:
+            "Let’s change the game in climate finance. Acumen supports entrepreneurs and companies tackling climate challenges worldwide. Learn how you can help today.",
+        },
+        {
+          property: "og:image",
+          content: "/_include/images/world-cup-meta.jpg",
+        },
+        {
+          property: "og:image:type",
+          content: "image/jpeg",
+        },
+        { name: "twitter:card", content: "summary_large_image" },
+        {
+          name: "twitter:image",
+          content: "/_include/images/world-cup-meta.jpg",
         },
       ],
       link: [
