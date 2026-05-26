@@ -12,6 +12,7 @@ export default defineEventHandler(async (event) => {
   // try {
   const portalId = config.public.HUBSPOT_PORTAL_ID;
   const formGuid = config.public.HUBSPOT_FORM_ID;
+
   const options = {
     method: "POST",
     headers: {
@@ -21,8 +22,8 @@ export default defineEventHandler(async (event) => {
     body: JSON.stringify({
       fields: [
         { name: "email", value: body.email ?? "" },
-        { name: "firstname", value: body.fname ?? "" },
-        { name: "lastname", value: body.lname ?? "" },
+        { name: "firstname", value: body.firstname ?? "" },
+        { name: "lastname", value: body.lastname ?? "" },
       ],
       context: {},
       skipValidation: true,
