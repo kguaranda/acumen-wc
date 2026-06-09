@@ -92,7 +92,7 @@ export default defineNuxtConfig({
           rel: "preload",
           as: "image",
           type: "image/webp",
-          href: "/_include/videos/6508465_Ball%20Football%20Rain%20Village_By_Phong_Croco_Artlist_HD_web.webp",
+          href: "/_include/videos/video_poster.webp",
           fetchpriority: "high",
         },
         {
