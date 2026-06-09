@@ -1,3 +1,8 @@
+const CAMPAIGN_START = new Date("2026-04-30T00:00:00Z");
+
+const hoursSinceCampaignStart = () =>
+  Math.ceil((Date.now() - CAMPAIGN_START.getTime()) / (1000 * 60 * 60));
+
 export default defineEventHandler(async () => {
   const config = useRuntimeConfig();
   const apiKey = config.FUNRAISE_API_KEY as string;
@@ -18,18 +23,14 @@ export default defineEventHandler(async () => {
           Accept: "application/json",
           "X-Api-Key": apiKey,
         },
-        query: {},
-      }
+        query: {
+          pageSize: 100,
+          lastHours: String(hoursSinceCampaignStart()),
+        },
+      },
     );
 
-    type BannerItem = {
-      firstname: string;
-      lastname: string;
-      batch: string;
-    };
-    const bannerData = mapBannerData(response as BannerItem[]);
-
-    return bannerData;
+    return mapBannerData(response as unknown[]);
   } catch (error) {
     console.error("Failed to fetch banner data", error);
     return [];
@@ -39,18 +40,27 @@ export default defineEventHandler(async () => {
 const mapBannerData = (data: unknown[]) => {
   if (!data || data.length === 0) return [];
 
+  const seen = new Set<string>();
+
   return data
     .filter(
       (item: any) =>
         item?.form?.id === 49591 &&
         item.transaction.amount > 0 &&
-        item.transaction?.billingFirstName
+        item.transaction?.billingFirstName,
     )
+    .sort((a: any, b: any) => (b.donationDate ?? 0) - (a.donationDate ?? 0))
     .map((item: any) => ({
       firstname: item.transaction.billingFirstName,
       lastname: item.transaction.billingLastName,
       batch: batchType(item.transaction.amount),
-    }));
+    }))
+    .filter((item) => {
+      const key = `${item.firstname}|${item.lastname}`.toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
 };
 
 const batchType = (amount: number) => {

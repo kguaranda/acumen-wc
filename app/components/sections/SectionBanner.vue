@@ -77,7 +77,7 @@
     async () => {
       await nextTick();
       recompute();
-    }
+    },
   );
 
   watch(speedPxPerSecond, () => {
