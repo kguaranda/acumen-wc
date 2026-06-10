@@ -99,7 +99,7 @@ export default defineNuxtConfig({
           rel: "preload",
           as: "video",
           type: "video/mp4",
-          href: "/_include/videos/6508465_Ball_Football_Rain_Village_By_Phong_Croco_Artlist_4K.mp4",
+          href: "/_include/videos/720-6508465_Ball_Football_Rain_Village_By_Phong_Croco_Artlist_4K.mp4",
           fetchpriority: "high",
         },
         { rel: "stylesheet", href: "https://use.typekit.net/pzv2tcy.css" },
